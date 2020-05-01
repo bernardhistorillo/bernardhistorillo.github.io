@@ -37,7 +37,7 @@
 	</style>
 </head>
 
-<body class="developer" style="background-color:#eeeeee">
+<body class="developer" style="background-color:#eeeeee" onload="init()">
 	<header>
         <div id="home" class="view jarallax" data-jarallax="{&quot;speed&quot;: 0.2}" style="background-image:url('img/header.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; z-index: 0; background-attachment: scroll; background-color:#707070">
             <div class="mask" style="background: linear-gradient(45deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8))">
@@ -782,15 +782,6 @@
 				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Math Dommable</h5>
 				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">This is an Android 2D app game having a similarity game rules to both domino and scrabble games. The main objective of the game is to form mathematical expressions with the use of dominoes by placing them on the game board. Each results of the formed expression adds up to the score of a player. The game ends if all dominoes are used up or no more valid moves can be done. The player who gets the highest score wins the game. The game also includes 'player versus computer' feature having a difficulty levels of easy, average, and difficult.</p>
 				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Team</h5>
-				<div class="row wow fadeIn" data-wow-delay="0.2s">
-					<div class="offset-md-3 col-md-6 offset-lg-0 col-lg-4 col-xl-3">
-						<p class="card-text text-center mb-1">Bernard Q. Historillo</p>
-						<p class="card-text text-center mb-1"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> bernard.historillo@bicol-u.edu.ph</span></p>
-						<p class="card-text text-center mb-3">Programmer</p>
-					</div>
-				</div>
-				
 				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
 				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
 					<div class="col-4 col-sm-3 col-md-2 mb-3">
@@ -963,7 +954,75 @@
 				$(element).parent().find("i").css("display","none");
 			}
 		});
-		
+
+        function init(){
+            new SmoothScroll(document,120,12)
+        }
+
+        function SmoothScroll(target, speed, smooth) {
+            if (target === document)
+                target = (document.scrollingElement
+                    || document.documentElement
+                    || document.body.parentNode
+                    || document.body) // cross browser support for document scrolling
+
+            var moving = false
+            var pos = target.scrollTop
+            var frame = target === document.body
+            && document.documentElement
+                ? document.documentElement
+                : target // safari is the new IE
+
+            target.addEventListener('mousewheel', scrolled, { passive: false })
+            target.addEventListener('DOMMouseScroll', scrolled, { passive: false })
+
+            function scrolled(e) {
+                e.preventDefault(); // disable default scrolling
+
+                var delta = normalizeWheelDelta(e)
+
+                pos += -delta * speed
+                pos = Math.max(0, Math.min(pos, target.scrollHeight - frame.clientHeight)) // limit scrolling
+
+                if (!moving) update()
+            }
+
+            function normalizeWheelDelta(e){
+                if(e.detail){
+                    if(e.wheelDelta)
+                        return e.wheelDelta/e.detail/40 * (e.detail>0 ? 1 : -1) // Opera
+                    else
+                        return -e.detail/3 // Firefox
+                }else
+                    return e.wheelDelta/120 // IE,Safari,Chrome
+            }
+
+            function update() {
+                moving = true
+
+                var delta = (pos - target.scrollTop) / smooth
+
+                target.scrollTop += delta
+
+                if (Math.abs(delta) > 0.5)
+                    requestFrame(update)
+                else
+                    moving = false
+            }
+
+            var requestFrame = function() { // requestAnimationFrame cross browser
+                return (
+                    window.requestAnimationFrame ||
+                    window.webkitRequestAnimationFrame ||
+                    window.mozRequestAnimationFrame ||
+                    window.oRequestAnimationFrame ||
+                    window.msRequestAnimationFrame ||
+                    function(func) {
+                        window.setTimeout(func, 1000 / 50);
+                    }
+                );
+            }()
+        }
 	</script>
 
 	<div class="hiddendiv common"></div>
