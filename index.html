@@ -16,7 +16,7 @@
         body,
         header,
         .jarallax {
-          height: 100%;
+          height: 100vh;
         }
 
         @media (min-width: 560px) and (max-width: 740px) {
@@ -37,7 +37,7 @@
 	</style>
 </head>
 
-<body class="developer" style="background-color:#eeeeee" onload="init()">
+<body class="developer" style="background-color:#eeeeee">
 	<header>
         <div id="home" class="view jarallax" data-jarallax="{&quot;speed&quot;: 0.2}" style="background-image:url('img/header.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; z-index: 0; background-attachment: scroll; background-color:#707070">
             <div class="mask" style="background: linear-gradient(45deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8))">
@@ -782,6 +782,31 @@
 				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Math Dommable</h5>
 				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">This is an Android 2D app game having a similarity game rules to both domino and scrabble games. The main objective of the game is to form mathematical expressions with the use of dominoes by placing them on the game board. Each results of the formed expression adds up to the score of a player. The game ends if all dominoes are used up or no more valid moves can be done. The player who gets the highest score wins the game. The game also includes 'player versus computer' feature having a difficulty levels of easy, average, and difficult.</p>
 				
+				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Team</h5>
+				<div class="d-flex align-items-center flex-wrap wow fadeIn" data-wow-delay="0.2s">
+					<div class="pr-4">
+						<p class="card-text text-center mb-1">Rose Nunez</p>
+						<p class="card-text text-center mb-3">Researcher</p>
+					</div>
+					<div class="px-4">
+						<p class="card-text text-center mb-1">Ma. Cena Arevalo</p>
+						<p class="card-text text-center mb-3">Researcher</p>
+					</div>
+					<div class="px-4">
+						<p class="card-text text-center mb-1">Cristine Joy Ty</p>
+						<p class="card-text text-center mb-3">Researcher</p>
+					</div>
+					<div class="px-4">
+						<p class="card-text text-center mb-1">Cristine Laurio</p>
+						<p class="card-text text-center mb-3">Researcher</p>
+					</div>
+					<div class="pl-4">
+						<p class="card-text text-center mb-1">Bernard Q. Historillo</p>
+						<p class="card-text text-center mb-1"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> bernard.historillo@bicol-u.edu.ph</span></p>
+						<p class="card-text text-center mb-3">Programmer</p>
+					</div>
+				</div>
+				
 				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
 				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
 					<div class="col-4 col-sm-3 col-md-2 mb-3">
@@ -926,105 +951,9 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/mdb.min.js"></script>
 	<script type="text/javascript" src="js/jquery.lazy.min.js"></script>
-	<script type="text/javascript" src="js/index.js?v=1"></script>
-
-    <script>
-        $('body').scrollspy({
-            target: '.dotted-scrollspy'
-        });
-
-        $(function () {
-            $("#mdb-lightbox-ui").load("../mdb-addons/mdb-lightbox-ui.html");
-        });
-
-        $('.navbar-collapse a').click(function(){
-            $(".navbar-collapse").collapse('hide');
-        });
-
-        new WOW().init();
-		
-		$(".lazy").lazy({
-			beforeLoad: function(element) {
-				if(element.attr("data-src") != "img/header.jpg") {
-					$(element).parent().css("position", "relative");
-					$('<div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%)"><i class="fas fa-spinner fa-spin" style="color:#707070"></i></div>').insertAfter(element);
-				}
-			},
-			afterLoad: function(element) {
-				$(element).parent().find("i").css("display","none");
-			}
-		});
-
-        function init(){
-            new SmoothScroll(document,120,12)
-        }
-
-        function SmoothScroll(target, speed, smooth) {
-            if (target === document)
-                target = (document.scrollingElement
-                    || document.documentElement
-                    || document.body.parentNode
-                    || document.body) // cross browser support for document scrolling
-
-            var moving = false
-            var pos = target.scrollTop
-            var frame = target === document.body
-            && document.documentElement
-                ? document.documentElement
-                : target // safari is the new IE
-
-            target.addEventListener('mousewheel', scrolled, { passive: false })
-            target.addEventListener('DOMMouseScroll', scrolled, { passive: false })
-
-            function scrolled(e) {
-                e.preventDefault(); // disable default scrolling
-
-                var delta = normalizeWheelDelta(e)
-
-                pos += -delta * speed
-                pos = Math.max(0, Math.min(pos, target.scrollHeight - frame.clientHeight)) // limit scrolling
-
-                if (!moving) update()
-            }
-
-            function normalizeWheelDelta(e){
-                if(e.detail){
-                    if(e.wheelDelta)
-                        return e.wheelDelta/e.detail/40 * (e.detail>0 ? 1 : -1) // Opera
-                    else
-                        return -e.detail/3 // Firefox
-                }else
-                    return e.wheelDelta/120 // IE,Safari,Chrome
-            }
-
-            function update() {
-                moving = true
-
-                var delta = (pos - target.scrollTop) / smooth
-
-                target.scrollTop += delta
-
-                if (Math.abs(delta) > 0.5)
-                    requestFrame(update)
-                else
-                    moving = false
-            }
-
-            var requestFrame = function() { // requestAnimationFrame cross browser
-                return (
-                    window.requestAnimationFrame ||
-                    window.webkitRequestAnimationFrame ||
-                    window.mozRequestAnimationFrame ||
-                    window.oRequestAnimationFrame ||
-                    window.msRequestAnimationFrame ||
-                    function(func) {
-                        window.setTimeout(func, 1000 / 50);
-                    }
-                );
-            }()
-        }
-	</script>
-
+	<script type="text/javascript" src="js/jquery.easeScroll.js"></script>
+	<script type="text/javascript" src="js/index.js?v=7"></script>
+	
 	<div class="hiddendiv common"></div>
 </body>
 </html>
