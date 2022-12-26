@@ -9,6 +9,9 @@
 	<link href="https://kit-pro.fontawesome.com/releases/v5.13.0/css/pro.min.css" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/mdb.min.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"><link href="css/style.css" rel="stylesheet">
 	<link rel="icon" href="img/bernard.jpg"/>
 
     <style>
@@ -34,60 +37,64 @@
 			clip: rect(0 1108px 662px 0);
 			clip: rect(0, 1108px, 662px, 0);
 		}
+		.dg.ac {
+			display:none;
+		}
 	</style>
 </head>
 
 <body class="developer" style="background-color:#eeeeee">
-	<header>
-        <div id="home" class="view jarallax" data-jarallax="{&quot;speed&quot;: 0.2}" style="background-image:url('img/cc.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; z-index: 0; background-attachment: scroll; background-color:#707070">
-            <div class="mask" style="background: linear-gradient(45deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7))">
-                <div class="container h-100 d-flex justify-content-center justify-content-sm-start align-items-center">
-                    <div class="row smooth-scroll">
-                        <div class="col-md-12">
-							<div class="row justify-content-center justify-content-sm-start">
-								<div class="col-8 col-sm-8">
-									<div>
-										<img src="img/1x1.png" data-src="img/bernard.jpg" class="lazy img-fluid" style="width:100%; border-radius:50%; border:5px solid #4f66a7">
-									</div>
+	<div class="position-relative" style="min-height:100vh; overflow:hidden">
+		<div class="landscape"></div>
+		<canvas id="canvas"></canvas>
+		
+		<div class="position-absolute w-100 h-100" style="top:0; left:0">
+			<div class="container">
+				<div class="row justify-content-center align-items-center" style="min-height:100vh">
+					<div class="col-md-6">
+						<div class="row justify-content-center">
+							<div class="col-8 col-sm-8">
+								<div>
+									<img src="img/1x1.png" data-src="img/bernard.webp" class="lazy img-fluid border-color-1" alt="Bernard Historillo" style="width:100%; border-radius:50%; border-width:5px; border-style:solid">
 								</div>
 							</div>
-                            <div class="white-text text-center text-sm-left">
-                                <h1 class="display-4 mt-2 mb-4 wow fadeIn" style="color:#cccccc; visibility: visible; animation-name: fadeIn">Bernard Historillo</h1>
-                                <h5 class="text-uppercase font-weight-bold wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;"><mark class="blue-gradient text-white">Web developer</mark></h5>
-								<h1 class="mb-4 wow fadeIn" style="color:#aaaaaa; font-size:30px; margin-top:50px; visibility: visible; animation-name: fadeIn;">Welcome to my portfolio!</h1>
-							</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+						</div>
+						<div class="white-text text-center">
+							<h1 class="display-4 mt-2 mb-4 wow fadeIn text-color-2" style="visibility: visible; animation-name: fadeIn; font-weight:600">Bernard Historillo</h1>
+							<h5 class="text-uppercase font-weight-bold wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;"><mark class="bg-color-3 text-color-2">Web developer</mark></h5>
+							<h1 class="mb-4 wow fadeIn text-color-2" style="font-size:30px; margin-top:50px; visibility: visible; animation-name: fadeIn; font-weight:600">Welcome to my portfolio!</h1>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-    </header>
+	</div>
 	
-	<div class="bg-white shadow-sm">
+	<div class="bg-color-1 py-5">
 		<div class="container py-5">
 			<div class="d-flex justify-content-between">
 				<div class="mr-3">
-					<h1 class="font-weight-bold" style="color:#003d74">Bernard Historillo</h1>
+					<h1 class="font-weight-bold text-color-3 mb-4">Bernard Historillo</h1>
 				</div>
-<!--				<div>-->
-<!--					<a href="/pdf/resume.pdf" download="bernardhistorillo-resume" class="btn btn-primary btn-sm">Download CV</a>-->
-<!--				</div>-->
+				<div>
+					<a href="/pdf/resume.pdf" download="bernardhistorillo-resume" class="btn btn-custom-outline-2 btn-sm">Download CV</a>
+				</div>
 			</div>
 			
-			<h5 class="" style="color:#003d74">Full Stack Web Developer</h5>
-			<h6 class="">I am a full stack developer with a degree of Bachelor of Science in Computer Science who worked with various national and international clients. I worked on both frontend and backend in several software development projects in US based and Singapore based clients. I play a key role in delivering quality software systems. I also earned awards in programming competitions and several certifications in attending national conferences in the tech industry.</h6>
+			<h5 class="text-color-3" style="font-size:1.4em; font-weight:600">Full Stack Web Developer</h5>
+			<h6 class="text-color-2" style="font-size:1.2em; line-height:1.4em">I am a full stack developer with a degree of Bachelor of Science in Computer Science who worked with various national and international clients. I worked on both frontend and backend in several software development projects in US based and Singapore based clients. I play a key role in delivering quality software systems. I also earned awards in programming competitions and several certifications in attending national conferences in the tech industry.</h6>
 		
-			<div class="row mt-5">
+			<div class="row mt-5 text-color-2">
 				<div class="col-md-8">
-					<div class="mb-4 pb-3 wow fadeIn">
+					<div class="mb-5 wow fadeIn">
 						<div class="d-flex align-items-center">
-							<div class="d-flex justify-content-center align-items-center rounded-circle mr-3" style="width:40px; height:40px; background-color:#003d74">
-								<h5 class="fal fa-graduation-cap text-white mb-0"></h5>
+							<div class="d-flex justify-content-center align-items-center rounded-circle bg-color-3 mr-3" style="width:40px; height:40px">
+								<h5 class="fas fa-graduation-cap text-color-1 mb-0"></h5>
 							</div>
-							<h5 class="font-weight-bold mb-0" style="color:#003d74">Education</h5>
+							<h5 class="font-weight-bold mb-0 text-color-3">Education</h5>
 						</div>
 						
-						<hr class="mt-2" style="background-color:#222222">
+						<hr class="mt-2 bg-color-3">
 						
 						<div class="d-flex align-items-center mb-3">
 							<div style="min-width:110px; width:110px">
@@ -122,24 +129,25 @@
 					
 					<div class="wow fadeIn">
 						<div class="d-flex align-items-center">
-							<div class="d-flex justify-content-center align-items-center rounded-circle mr-3" style="width:40px; height:40px; background-color:#003d74">
-								<h5 class="fal fa-briefcase text-white mb-0"></h5>
+							<div class="d-flex justify-content-center align-items-center rounded-circle bg-color-3 mr-3" style="width:40px; height:40px">
+								<h5 class="fas fa-briefcase text-color-1 mb-0"></h5>
 							</div>
-							<h5 class="font-weight-bold mb-0" style="color:#003d74">Work History</h5>
+							<h5 class="font-weight-bold mb-0 text-color-3">Work History</h5>
 						</div>
 						
-						<hr class="mt-2" style="background-color:#222222">
+						<hr class="mt-2 bg-color-3">
 						
 						<div class="d-flex mb-3">
 							<div>
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2021-06 <b>-</b><br>Present</h6>
 							</div>
 							<div>
-								<h5 class="font-weight-bold mb-1">Chief Technology Officer</h5>
-								<h6 class="font-italic mb-1">Ownly, Legazpi City, Albay</h6>
+								<h5 class="font-weight-bold mb-1">Ownly, Legazpi City, Albay</h5>
 								<ul class="mb-0">
+									<li>Chief Technology Officer</li>
 									<li>Responsible in overseeing the development of Ownly's software products.</li>
-									<li>Designed, implemented and monitored web pages, plugins and functionality for continuous improvement.</li>
+									<li>Create smart contracts for NFT collections, marketplace and staking.</li>
+									<li>Create decentralized applications like NFT Marketplace, Token Staking and NFT minting websites.</li>
 								</ul>
 							</div>
 						</div>
@@ -149,8 +157,7 @@
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2021-01 <b>-</b><br>2021-06</h6>
 							</div>
 							<div>
-								<h5 class="font-weight-bold mb-1">Web Developer</h5>
-								<h6 class="font-italic mb-1">TransFingo Group of Companies, Singapore</h6>
+								<h5 class="font-weight-bold mb-1">TransFingo Group of Companies, Singapore</h5>
 								<ul class="mb-0">
 									<li>Designed, implemented and monitored web pages, plugins and functionality for continuous improvement.</li>
 								</ul>
@@ -162,10 +169,9 @@
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2019-08 <b>-</b><br>2020-12</h6>
 							</div>
 							<div>
-								<h5 class="font-weight-bold mb-1">Web Developer</h5>
-								<h6 class="font-italic mb-1">Fairwin Trading Corporation, Legazpi City, Albay</h6>
+								<h5 class="font-weight-bold mb-1">Fairwin Trading Corporation, Legazpi City, Albay</h5>
 								<ul class="mb-0">
-									<li>Designed, implemented and monitored web pages, plugins and functionality for continuous improvement.</li>
+									<li>Create an e-commerce website with multiple ways for its users to earn. (e.g. Retailing, Direct Referral, Indirect Referral, Uni-level Bonus, Profit Share Pool Bonus, Stair Steps Rewards, Infinity Plus Bonus, Royalty Bonus Rewards, Rank Incentives)</li>
 								</ul>
 							</div>
 						</div>
@@ -175,8 +181,7 @@
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2020-08 <b>-</b><br>2020-12</h6>
 							</div>
 							<div>
-								<h5 class="font-weight-bold mb-1">Web Developer</h5>
-								<h6 class="font-italic mb-1">10XPhilippines, Legazpi City, Albay</h6>
+								<h5 class="font-weight-bold mb-1">10XPhilippines, Legazpi City, Albay</h5>
 								<ul class="mb-0">
 									<li>Determined coding requirements for site creation, including e-commerce capability, security and specialized scripts.</li>
 								</ul>
@@ -188,8 +193,7 @@
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2020-02 <b>-</b><br>2020-12</h6>
 							</div>
 							<div>
-								<h5 class="font-weight-bold mb-1">Web Developer</h5>
-								<h6 class="font-italic mb-1">eBuloy, Legazpi City, Albay</h6>
+								<h5 class="font-weight-bold mb-1">eBuloy, Legazpi City, Albay</h5>
 								<ul class="mb-0">
 									<li>Determined coding requirements for site creation, including e-commerce capability, security and specialized scripts.</li>
 								</ul>
@@ -201,8 +205,7 @@
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2020-01 <b>-</b><br>2020-12</h6>
 							</div>
 							<div>
-								<h5 class="font-weight-bold mb-1">Web Developer</h5>
-								<h6 class="font-italic mb-1">Kangen Wellness Center, Legazpi, Albay</h6>
+								<h5 class="font-weight-bold mb-1">Kangen Wellness Center, Legazpi, Albay</h5>
 								<ul class="mb-0">
 									<li>Determined coding requirements for site creation, including e-commerce capability, security and specialized scripts.</li>
 								</ul>
@@ -214,8 +217,7 @@
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2020-05 <b>-</b><br>2020-08</h6>
 							</div>
 							<div>
-								<h5 class="font-weight-bold mb-1">Web Developer</h5>
-								<h6 class="font-italic mb-1">Nexas Data Solutions, Naga, Camarines Sur</h6>
+								<h5 class="font-weight-bold mb-1">Nexas Data Solutions, Naga, Camarines Sur</h5>
 								<ul class="mb-0">
 									<li>Planned website development, converting mockups into usable web presence withHTML, JavaScript, AJAX and JSON coding.</li>
 								</ul>
@@ -227,8 +229,7 @@
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2019-06 <b>-</b><br>2019-12</h6>
 							</div>
 							<div>
-								<h5 class="font-weight-bold mb-1">Web Developer</h5>
-								<h6 class="font-italic mb-1">Onlicoin, Legazpi, Albay</h6>
+								<h5 class="font-weight-bold mb-1">Onlicoin, Legazpi, Albay</h5>
 								<ul class="mb-0">
 									<li>Planned website development, converting mockups into usable web presence withHTML, JavaScript, AJAX and JSON coding.</li>
 								</ul>
@@ -240,8 +241,7 @@
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2018-07 <b>-</b><br>2019-07</h6>
 							</div>
 							<div>
-								<h5 class="font-weight-bold mb-1">Web Developer</h5>
-								<h6 class="font-italic mb-1">Biocare Multipurpose Cooperative, Daraga, Albay</h6>
+								<h5 class="font-weight-bold mb-1">Biocare Multipurpose Cooperative, Daraga, Albay</h5>
 								<ul class="mb-0">
 									<li>Determined coding requirements for site creation, including e-commerce capability, security and specialized scripts.</li>
 								</ul>
@@ -253,8 +253,7 @@
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2015-01 <b>-</b><br>2018-12</h6>
 							</div>
 							<div>
-								<h5 class="font-weight-bold mb-1">Web Developer</h5>
-								<h6 class="font-italic mb-1">Big Clap 365 Marketing, Legazpi, Albay</h6>
+								<h5 class="font-weight-bold mb-1">Big Clap 365 Marketing, Legazpi, Albay</h5>
 								<ul class="mb-0">
 									<li>Designed, developed and implemented software applications for website based on analyzed requirements and understanding of industry technical standards.</li>
 								</ul>
@@ -266,13 +265,13 @@
 				<div class="col-md-4">
 					<div class="mb-4 pb-3 wow fadeIn">
 						<div class="d-flex align-items-center">
-							<div class="d-flex justify-content-center align-items-center rounded-circle mr-3" style="width:40px; height:40px; background-color:#003d74">
-								<h5 class="fal fa-user text-white mb-0"></h5>
+							<div class="d-flex justify-content-center align-items-center rounded-circle bg-color-3 mr-3" style="width:40px; height:40px">
+								<h5 class="fas fa-user text-color-1 mb-0"></h5>
 							</div>
-							<h5 class="font-weight-bold mb-0" style="color:#003d74">Contact</h5>
+							<h5 class="font-weight-bold mb-0 text-color-3">Contact</h5>
 						</div>
 						
-						<hr class="mt-2" style="background-color:#222222">
+						<hr class="mt-2 bg-color-3">
 						
 						<div class="d-flex align-items-center mb-3">
 							<div>
@@ -298,13 +297,13 @@
 					
 					<div class="mb-4 pb-3 wow fadeIn">
 						<div class="d-flex align-items-center">
-							<div class="d-flex justify-content-center align-items-center rounded-circle mr-3" style="width:40px; height:40px; background-color:#003d74">
-								<h5 class="fal fa-code text-white mb-0"></h5>
+							<div class="d-flex justify-content-center align-items-center bg-color-3 rounded-circle mr-3" style="width:40px; height:40px">
+								<h5 class="fas fa-code text-color-1 mb-0"></h5>
 							</div>
-							<h5 class="font-weight-bold mb-0" style="color:#003d74">Skills</h5>
+							<h5 class="font-weight-bold mb-0 text-color-3">Skills</h5>
 						</div>
 						
-						<hr class="mt-2" style="background-color:#222222">
+						<hr class="mt-2 bg-color-3">
 						
 						<h6 class="d-flex align-items-center mb-2">
 							<div class="mr-2">
@@ -334,7 +333,7 @@
 							<div class="mr-2">
 								<i class="far fa-dot-circle"></i>
 							</div>
-							<div>PhoneGap &amp; Framework7</div>
+							<div>Apache Cordova &amp; Framework7</div>
 						</h6>
 						<h6 class="d-flex align-items-center mb-2">
 							<div class="mr-2">
@@ -352,13 +351,13 @@
 					
 					<div class="mb-4 pb-3 wow fadeIn">
 						<div class="d-flex align-items-center">
-							<div class="d-flex justify-content-center align-items-center rounded-circle mr-3" style="width:40px; height:40px; background-color:#003d74">
-								<h5 class="fal fa-mobile-alt text-white mb-0"></h5>
+							<div class="d-flex justify-content-center align-items-center rounded-circle bg-color-3 mr-3" style="width:40px; height:40px">
+								<h5 class="fas fa-mobile-alt text-color-1 mb-0"></h5>
 							</div>
-							<h5 class="font-weight-bold mb-0" style="color:#003d74">Freelance Works</h5>
+							<h5 class="font-weight-bold mb-0 text-color-3">Freelance Works</h5>
 						</div>
 						
-						<hr class="mt-2" style="background-color:#222222">
+						<hr class="mt-2 bg-color-3">
 						
 						<ul class="mb-0">
 							<li class="mb-1">Beam Deflection Using Area Moment Method (Android App)</li>
@@ -377,13 +376,13 @@
 					
 					<div class="wow fadeIn">
 						<div class="d-flex align-items-center">
-							<div class="d-flex justify-content-center align-items-center rounded-circle mr-3" style="width:40px; height:40px; background-color:#003d74">
-								<h5 class="fal fa-user-tie text-white mb-0"></h5>
+							<div class="d-flex justify-content-center align-items-center rounded-circle bg-color-3 mr-3" style="width:40px; height:40px">
+								<h5 class="fas fa-user-tie text-color-1 mb-0"></h5>
 							</div>
-							<h5 class="font-weight-bold mb-0" style="color:#003d74">Character Reference</h5>
+							<h5 class="font-weight-bold mb-0 text-color-3">Character Reference</h5>
 						</div>
 						
-						<hr class="mt-2" style="background-color:#222222">
+						<hr class="mt-2 bg-color-3">
 						
 						<h6 class="mb-0">Jose P. Bermundo <span class="font-italic">(+63 917 679 1822)</span></h6>
 					</div>
@@ -391,53 +390,55 @@
 			</div>
 		</div>
 	</div>
-	
+</div>
+
+<div class="bg-color-2">
 	<div class="container pt-3">
-		<h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; padding-top:0px !important">My Works</h2>
+		<h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; padding-top:0px !important; font-size:2.4em; font-weight:600">My Works</h2>
 		
-		<div class="card card-cascade narrower" style="margin-top:70px">
-			<div class="view gradient-card-header blue-gradient narrower align-items-center">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0px">10XPhilippines</h4>
+		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">10XPhilippines</h4>
 			</div>
 			<div class="card-body">
 				<div class="mdb-lightbox row mt-3 mx-1">
 					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/fairwin/1.png" data-size="1400x1050">
+						<a href="img/10xphilippines/1.png" data-size="1400x1050">
 							<img src="img/4x3.png" data-src="img/10xphilippines/1.png" class="lazy img-fluid" style="width:100%">
 						</a>
 					</figure>
 					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/fairwin/2.png" data-size="1400x1050">
+						<a href="img/10xphilippines/2.png" data-size="1400x1050">
 							<img src="img/4x3.png" data-src="img/10xphilippines/2.png" class="lazy img-fluid" style="width:100%">
 						</a>
 					</figure>
 					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/fairwin/3.png" data-size="1400x1050">
+						<a href="img/10xphilippines/3.png" data-size="1400x1050">
 							<img src="img/4x3.png" data-src="img/10xphilippines/3.png" class="lazy img-fluid" style="width:100%">
 						</a>
 					</figure>
 					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/fairwin/4.png" data-size="1400x1050">
+						<a href="img/10xphilippines/4.png" data-size="1400x1050">
 							<img src="img/4x3.png" data-src="img/10xphilippines/4.png" class="lazy img-fluid" style="width:100%">
 						</a>
 					</figure>
 					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.5s">
-						<a href="img/fairwin/5.png" data-size="1400x1050">
+						<a href="img/10xphilippines/5.png" data-size="1400x1050">
 							<img src="img/4x3.png" data-src="img/10xphilippines/5.png" class="lazy img-fluid" style="width:100%">
 						</a>
 					</figure>
 					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.6s">
-						<a href="img/fairwin/6.png" data-size="1400x1050">
+						<a href="img/10xphilippines/6.png" data-size="1400x1050">
 							<img src="img/4x3.png" data-src="img/10xphilippines/6.png" class="lazy img-fluid" style="width:100%">
 						</a>
 					</figure>
 					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.7s">
-						<a href="img/fairwin/7.png" data-size="1400x1050">
+						<a href="img/10xphilippines/7.png" data-size="1400x1050">
 							<img src="img/4x3.png" data-src="img/10xphilippines/7.png" class="lazy img-fluid" style="width:100%">
 						</a>
 					</figure>
 					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.8s">
-						<a href="img/fairwin/8.png" data-size="1400x1050">
+						<a href="img/10xphilippines/8.png" data-size="1400x1050">
 							<img src="img/4x3.png" data-src="img/10xphilippines/8.png" class="lazy img-fluid" style="width:100%">
 						</a>
 					</figure>
@@ -473,17 +474,12 @@
 						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Vue.js</div>
 					</div>
 				</div>
-				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">
-				
-				<div class="text-center wow fadeIn" data-wow-delay="0.2s">
-					<a href="https://10xphilippines.com" target="_blank" class="btn blue-gradient" style="width:240.766px"><i class="fas fa-desktop mr-1"></i> Visit Site</a>
-				</div>
 			</div>
 		</div>
 		
 		<div class="card card-cascade narrower" style="margin-top:70px">
-			<div class="view gradient-card-header blue-gradient narrower align-items-center">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0px">Fairwin Trading Corp</h4>
+			<div class="view gradient-card-header bg-color-1 narrower align-items-center">
+				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Fairwin Trading Corp</h4>
 			</div>
 			<div class="card-body">
 				<div class="mdb-lightbox row mt-3 mx-1">
@@ -545,7 +541,7 @@
 					</div>
 					<div class="col-sm-6 col-lg-4">
 						<ul class="card-text mb-0">
-							<li>In Direct Referral</li>
+							<li>Indirect Referral</li>
 						</ul>
 					</div>
 					<div class="col-sm-6 col-lg-4">
@@ -613,8 +609,8 @@
 		</div>
 		
 		<div class="card card-cascade narrower" style="margin-top:70px">
-			<div class="view gradient-card-header blue-gradient narrower align-items-center">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0px">Kangen Wellness Center</h4>
+			<div class="view gradient-card-header bg-color-1 narrower align-items-center">
+				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Kangen Wellness Center</h4>
 			</div>
 			<div class="card-body">
 				<div class="mdb-lightbox row mt-3 mx-1">
@@ -685,17 +681,12 @@
 						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
 					</div>
 				</div>
-				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">
-
-				<div class="text-center wow fadeIn" data-wow-delay="0.2s">
-					<a href="https://kangenwellnesscenter.com.ph" target="_blank" class="btn blue-gradient" style="width:240.766px"><i class="fas fa-desktop mr-1"></i> Visit Site</a>
-				</div>
 			</div>
 		</div>
 		
 		<div class="card card-cascade narrower" style="margin-top:70px">
-			<div class="view gradient-card-header blue-gradient narrower align-items-center">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0px">Beam Deflection using Area Moment Method</h4>
+			<div class="view gradient-card-header bg-color-1 narrower align-items-center">
+				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Beam Deflection using Area Moment Method</h4>
 			</div>
 			<div class="card-body">
 				<div class="mdb-lightbox row mt-3 mx-1">
@@ -782,8 +773,8 @@
 		</div>
 		
 		<div class="card card-cascade narrower" style="margin-top:70px">
-			<div class="view gradient-card-header blue-gradient narrower align-items-center">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0px">Design of Reinforced T-Beams</h4>
+			<div class="view gradient-card-header bg-color-1 narrower align-items-center">
+				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Design of Reinforced T-Beams</h4>
 			</div>
 			<div class="card-body">
 				<div class="mdb-lightbox row mt-3 mx-1">
@@ -864,8 +855,8 @@
 		</div>
 		
 		<div class="card card-cascade narrower" style="margin-top:70px">
-			<div class="view gradient-card-header blue-gradient narrower align-items-center">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0px">Soil Classification</h4>
+			<div class="view gradient-card-header bg-color-1 narrower align-items-center">
+				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Soil Classification</h4>
 			</div>
 			<div class="card-body">
 				<div class="mdb-lightbox row mt-3 mx-1">
@@ -946,8 +937,8 @@
 		</div>
 		
 		<div class="card card-cascade narrower" style="margin-top:70px">
-			<div class="view gradient-card-header blue-gradient narrower align-items-center">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0px">Reinforced Concrete Columns</h4>
+			<div class="view gradient-card-header bg-color-1 narrower align-items-center">
+				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Reinforced Concrete Columns</h4>
 			</div>
 			<div class="card-body">
 				<div class="mdb-lightbox row mt-3 mx-1">
@@ -1010,8 +1001,8 @@
 		</div>
 		
 		<div class="card card-cascade narrower" style="margin-top:70px">
-			<div class="view gradient-card-header blue-gradient narrower align-items-center">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0px">Physics Simulations</h4>
+			<div class="view gradient-card-header bg-color-1 narrower align-items-center">
+				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Physics Simulations</h4>
 			</div>
 			<div class="card-body">
 				<div class="mdb-lightbox row mt-3 mx-1">
@@ -1105,8 +1096,8 @@
 		</div>
 		
 		<div class="card card-cascade narrower" style="margin-top:70px">
-			<div class="view gradient-card-header blue-gradient narrower align-items-center">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0px">Albay 2nd District Commercial Establishment Proximity Map Locator <span style="font-style:italic">(Study)</span></h4>
+			<div class="view gradient-card-header bg-color-1 narrower align-items-center">
+				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Albay 2nd District Commercial Establishment Proximity Map Locator <span style="font-style:italic">(Study)</span></h4>
 			</div>
 			<div class="card-body">
 				<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Android App</h5>
@@ -1219,8 +1210,8 @@
 		</div>
 		
 		<div class="card card-cascade narrower" style="margin-top:70px">
-			<div class="view gradient-card-header blue-gradient narrower align-items-center">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0px">Pulmonary Healthcare Assistant and Reminder for Medicine Assimilation <span style="font-style:italic">(Study)</span></h4>
+			<div class="view gradient-card-header bg-color-1 narrower align-items-center">
+				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Pulmonary Healthcare Assistant and Reminder for Medicine Assimilation <span style="font-style:italic">(Study)</span></h4>
 			</div>
 			<div class="card-body">
 				<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Android App</h5>
@@ -1327,8 +1318,8 @@
 		</div>
 		
 		<div class="card card-cascade narrower" style="margin-top:70px">
-			<div class="view gradient-card-header blue-gradient narrower align-items-center">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0px">Math Dommable</h4>
+			<div class="view gradient-card-header bg-color-1 narrower align-items-center">
+				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Math Dommable</h4>
 			</div>
 			<div class="card-body">
 				<div class="mdb-lightbox row mt-3 mx-1">
@@ -1410,8 +1401,8 @@
 		</div>
 		
 		<div class="card card-cascade narrower" style="margin-top:70px">
-			<div class="view gradient-card-header blue-gradient narrower align-items-center">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0px">PROJECT MOBILI</h4>
+			<div class="view gradient-card-header bg-color-1 narrower align-items-center">
+				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">PROJECT MOBILI</h4>
 			</div>
 			<div class="card-body">
 				<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Android App Version</h5>
@@ -1530,8 +1521,8 @@
 		</div>
 		
 		<div class="card card-cascade narrower" style="margin-top:70px">
-			<div class="view gradient-card-header blue-gradient narrower align-items-center">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0px">Loan Management System</h4>
+			<div class="view gradient-card-header bg-color-1 narrower align-items-center">
+				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Loan Management System</h4>
 			</div>
 			<div class="card-body">
 				<div class="mdb-lightbox row mt-3 mx-1">
@@ -1728,6 +1719,7 @@
 	<script type="text/javascript" src="js/mdb.min.js"></script>
 	<script type="text/javascript" src="js/jquery.lazy.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easeScroll.js"></script>
+	<script type="text/javascript" src="js/ZKeddV.js"></script>
 	<script type="text/javascript" src="js/index.js?v=9"></script>
 	
 	<div class="hiddendiv common"></div>
