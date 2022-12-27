@@ -24,8 +24,6 @@ $(document).ready(function() {
 			$(element).parent().find("i").css("display","none");
 		}
 	});
-
-	$("html").easeScroll();
 });
 
 $(document).on("click", ".send-message", function() {
