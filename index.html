@@ -55,10 +55,10 @@
 </head>
 
 <body class="developer" style="background-color:#eeeeee">
-	<div class="position-relative" style="min-height:100vh; overflow:hidden">
+	<div class="position-relative d-print-none" style="min-height:100vh; overflow:hidden">
 		<div class="landscape"></div>
 		<canvas id="canvas"></canvas>
-		
+
 		<div class="position-absolute w-100 h-100" style="top:0; left:0">
 			<div class="container">
 				<div class="row justify-content-center align-items-center" style="min-height:100vh">
@@ -80,27 +80,27 @@
 			</div>
 		</div>
 	</div>
-	
-	<div>
+
+	<div class="d-print-none">
 		<img src="img/wave.webp" class="w-100" height="150" />
 	</div>
-	
-	<div class="bg-color-1 pb-5">
+
+	<div class="bg-color-1 pb-5 d-print-block">
 		<div class="container py-5">
 			<div class="d-flex justify-content-between">
 				<div class="mr-3">
 					<h1 class="font-weight-bold text-color-3 mb-4">Bernard Historillo</h1>
 				</div>
 				<div>
-					<a href="/pdf/resume.pdf" download="bernardhistorillo-resume" class="btn btn-custom-outline-2 btn-sm">Download CV</a>
+					<a href="/pdf/bernardhistorillo-resume.pdf" download="bernardhistorillo-resume" class="btn btn-custom-outline-2 btn-sm">Download CV</a>
 				</div>
 			</div>
-			
+
 			<h5 class="text-color-3" style="font-size:1.4em; font-weight:600; text-align:justify">Full Stack Web Developer</h5>
 			<h6 class="text-color-2 mb-3" style="font-size:1.1em; line-height:1.3em; text-align:justify">As a skilled full stack developer with a Bachelor's degree in Computer Science, I have gained extensive experience working with a diverse range of national and international clients. I have worked on numerous software development projects, contributing my expertise in both frontend and backend development to deliver exceptional results.</h6>
 			<h6 class="text-color-2 mb-3" style="font-size:1.1em; line-height:1.3em; text-align:justify">With a focus on quality, I have played a pivotal role in delivering high-performing software systems that meet and exceed client expectations. My dedication to excellence has earned me recognition in the form of awards in programming competitions and certifications for attending national conferences in the tech industry.</h6>
 			<h6 class="text-color-2" style="font-size:1.1em; line-height:1.3em; text-align:justify">Overall, I am a seasoned professional who takes pride in consistently delivering top-notch software solutions.</h6>
-		
+
 			<div class="row mt-5 text-color-2">
 				<div class="col-md-8">
 					<div class="mb-5 wow fadeIn">
@@ -110,9 +110,9 @@
 							</div>
 							<h5 class="font-weight-bold mb-0 text-color-3">Education</h5>
 						</div>
-						
+
 						<hr class="mt-2 bg-color-3">
-						
+
 						<div class="d-flex align-items-center mb-3">
 							<div style="min-width:110px; width:110px">
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em">2013-06 <b>-</b><br>2017-03</h6>
@@ -122,7 +122,7 @@
 								<h6 class="font-italic mb-0">Bicol University College Of Science - Rizal Street 4500 Legazpi, Albay</h6>
 							</div>
 						</div>
-						
+
 						<div class="d-flex align-items-center mb-3">
 							<div style="min-width:110px; width:110px">
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em">2009-06 <b>-</b><br>2013-03</h6>
@@ -132,7 +132,7 @@
 								<h6 class="font-italic mb-0">St. Agnes’ Academy - Legazpi City, Albay</h6>
 							</div>
 						</div>
-						
+
 						<div class="d-flex align-items-center">
 							<div style="min-width:110px; width:110px">
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em">2009-06 <b>-</b><br>2013-03</h6>
@@ -143,7 +143,7 @@
 							</div>
 						</div>
 					</div>
-					
+
 					<div class="wow fadeIn">
 						<div class="d-flex align-items-center">
 							<div class="d-flex justify-content-center align-items-center rounded-circle bg-color-3 mr-3" style="width:40px; height:40px">
@@ -151,9 +151,9 @@
 							</div>
 							<h5 class="font-weight-bold mb-0 text-color-3">Work History</h5>
 						</div>
-						
+
 						<hr class="mt-2 bg-color-3">
-						
+
 						<div class="d-flex mb-3">
 							<div>
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2021-06 <b>-</b><br>2022-11</h6>
@@ -168,7 +168,7 @@
 								</ul>
 							</div>
 						</div>
-						
+
 						<div class="d-flex mb-3">
 							<div>
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2021-01 <b>-</b><br>2021-06</h6>
@@ -181,7 +181,7 @@
 								</ul>
 							</div>
 						</div>
-						
+
 						<div class="d-flex mb-3">
 							<div>
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2019-08 <b>-</b><br>2020-12</h6>
@@ -193,7 +193,7 @@
 								</ul>
 							</div>
 						</div>
-						
+
 						<div class="d-flex mb-3">
 							<div>
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2020-08 <b>-</b><br>2020-12</h6>
@@ -201,23 +201,12 @@
 							<div>
 								<h5 class="font-weight-bold mb-1">10XPhilippines, Legazpi City, Albay</h5>
 								<ul class="mb-0">
-									<li>Determined coding requirements for site creation, including e-commerce capability, security and specialized scripts.</li>
+									<li>Design and develop responsive interfaces for displaying and categorizing deals, discounts, promos, and giveaways.</li>
+									<li>Implement a system to generate unique QR Codes for users to facilitate contact tracing.</li>
 								</ul>
 							</div>
 						</div>
-						
-						<div class="d-flex mb-3">
-							<div>
-								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2020-02 <b>-</b><br>2020-12</h6>
-							</div>
-							<div>
-								<h5 class="font-weight-bold mb-1">eBuloy, Legazpi City, Albay</h5>
-								<ul class="mb-0">
-									<li>Determined coding requirements for site creation, including e-commerce capability, security and specialized scripts.</li>
-								</ul>
-							</div>
-						</div>
-						
+
 						<div class="d-flex mb-3">
 							<div>
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2020-01 <b>-</b><br>2020-12</h6>
@@ -225,11 +214,13 @@
 							<div>
 								<h5 class="font-weight-bold mb-1">Kangen Wellness Center, Legazpi, Albay</h5>
 								<ul class="mb-0">
-									<li>Determined coding requirements for site creation, including e-commerce capability, security and specialized scripts.</li>
+									<li>Implemented e-commerce functionalities, including cart, checkout, and payment gateways.</li>
+									<li>Set up and managed databases for product catalogs, user profiles, and transaction histories.</li>
+									<li>Integrated systems to handle various income sources and financial reporting.</li>
 								</ul>
 							</div>
 						</div>
-						
+
 						<div class="d-flex mb-3">
 							<div>
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2020-05 <b>-</b><br>2020-08</h6>
@@ -237,11 +228,13 @@
 							<div>
 								<h5 class="font-weight-bold mb-1">Nexas Data Solutions, Naga, Camarines Sur</h5>
 								<ul class="mb-0">
-									<li>Planned website development, converting mockups into usable web presence withHTML, JavaScript, AJAX and JSON coding.</li>
+									<li>Created dynamic pages to display establishment details, user reviews, and safety measures.</li>
+									<li>Created a system for establishments to input and update their Covid-19 prevention measures.</li>
+									<li>Enabled features such as route planning, nearby searches, and location-based recommendations.</li>
 								</ul>
 							</div>
 						</div>
-						
+
 						<div class="d-flex mb-3">
 							<div>
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2019-06 <b>-</b><br>2019-12</h6>
@@ -249,11 +242,13 @@
 							<div>
 								<h5 class="font-weight-bold mb-1">Onlicoin, Legazpi, Albay</h5>
 								<ul class="mb-0">
-									<li>Planned website development, converting mockups into usable web presence withHTML, JavaScript, AJAX and JSON coding.</li>
+									<li>Designed and deployed the OnliCoin token using the Ethereum blockchain.</li>
+									<li>Created responsive user interfaces for account management, token balance, transaction history, and other essential features.</li>
+									<li>Developed unique earning features to reward users for participation and engagement.</li>
 								</ul>
 							</div>
 						</div>
-						
+
 						<div class="d-flex mb-3">
 							<div>
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2018-07 <b>-</b><br>2019-07</h6>
@@ -261,11 +256,13 @@
 							<div>
 								<h5 class="font-weight-bold mb-1">Biocare Multipurpose Cooperative, Daraga, Albay</h5>
 								<ul class="mb-0">
-									<li>Determined coding requirements for site creation, including e-commerce capability, security and specialized scripts.</li>
+									<li>Designed and developed a user-friendly e-commerce section for showcasing and selling health products.</li>
+									<li>Created a comprehensive network marketing structure to manage user referrals, tiers, and rewards.</li>
+									<li>Built personalized user dashboards for tracking purchases, referrals, earnings, and more.</li>
 								</ul>
 							</div>
 						</div>
-						
+
 						<div class="d-flex mb-0">
 							<div>
 								<h6 class="font-weight-bold mb-0" style="line-height:1.4em; width:110px">2015-01 <b>-</b><br>2018-12</h6>
@@ -273,14 +270,15 @@
 							<div>
 								<h5 class="font-weight-bold mb-1">Big Clap 365 Marketing, Legazpi, Albay</h5>
 								<ul class="mb-0">
-									<li>Played a crucial role in designing and developing the website's presence.</li>
-									<li>Worked closely with the marketing and sales teams to ensure the website accurately reflected their brand and product offerings, while also providing a seamless user experience for visitors.</li>
+									<li>Created a robust affiliate marketing structure, enabling users to promote products and earn commissions.</li>
+									<li>Implemented an e-commerce platform for sellers to list and manage their products.</li>
+									<li>Developed personalized user dashboards to track sales, earnings, referrals, and other essential metrics.</li>
 								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="col-md-4">
 					<div class="mb-4 pb-3 wow fadeIn">
 						<div class="d-flex align-items-center">
@@ -289,31 +287,31 @@
 							</div>
 							<h5 class="font-weight-bold mb-0 text-color-3">Contact</h5>
 						</div>
-						
+
 						<hr class="mt-2 bg-color-3">
-						
-						<div class="d-flex align-items-center mb-3">
-							<div>
-								<h6 class="font-weight-bold mb-1">Address</h6>
-								<h6 class="mb-0">Daraga, Albay, 4500</h6>
-							</div>
-						</div>
-						
+
 						<div class="d-flex align-items-center mb-3">
 							<div>
 								<h6 class="font-weight-bold mb-1">Phone</h6>
 								<h6 class="mb-0">+63 947 192 2555</h6>
 							</div>
 						</div>
-						
+
 						<div class="d-flex align-items-center mb-3">
 							<div>
 								<h6 class="font-weight-bold mb-1">E-mail</h6>
 								<h6 class="mb-0">bernardhistorillo1@gmail.com</h6>
 							</div>
 						</div>
+
+						<div class="d-flex align-items-center mb-3">
+							<div>
+								<h6 class="font-weight-bold mb-1">Website</h6>
+								<h6 class="mb-0">bernardhistorillo.github.io</h6>
+							</div>
+						</div>
 					</div>
-					
+
 					<div class="mb-4 pb-3 wow fadeIn" style="margin-top:30px">
 						<div class="d-flex align-items-center">
 							<div class="d-flex justify-content-center align-items-center bg-color-3 rounded-circle mr-3" style="width:40px; height:40px">
@@ -321,9 +319,9 @@
 							</div>
 							<h5 class="font-weight-bold mb-0 text-color-3">Skills</h5>
 						</div>
-						
+
 						<hr class="mt-2 bg-color-3">
-						
+
 						<h6 class="d-flex align-items-center mb-2">
 							<div class="mr-2">
 								<i class="far fa-dot-circle"></i>
@@ -367,7 +365,7 @@
 							<div>Unity 2D</div>
 						</h6>
 					</div>
-					
+
 					<div class="mb-4 pb-3 wow fadeIn">
 						<div class="d-flex align-items-center">
 							<div class="d-flex justify-content-center align-items-center rounded-circle bg-color-3 mr-3" style="width:40px; height:40px">
@@ -375,24 +373,31 @@
 							</div>
 							<h5 class="font-weight-bold mb-0 text-color-3">Freelance Works</h5>
 						</div>
-						
+
 						<hr class="mt-2 bg-color-3">
-						
+
 						<ul class="mb-0">
-							<li class="mb-1">Beam Deflection Using Area Moment Method (Android App)</li>
-							<li class="mb-1">Reinforced Concrete Columns (Android App)</li>
-							<li class="mb-1">Soil Classification (Android App)</li>
-							<li class="mb-1">Design of Reinforced T-Beams (Android App)</li>
-							<li class="mb-1">Project Mobili (Android App)</li>
-							<li class="mb-1">Albay 2nd District Commercial EstablishmentProximity Map Locator (Android App)</li>
-							<li class="mb-1">Pulmonary Healthcare Assistant and Reminder forMedicine Assimilation (Android App)</li>
-							<li class="mb-1">Loan Management System (Android App)</li>
-							<li class="mb-1">Physics Simulations (Desktop App)</li>
-							<li class="mb-1">Math Dommable (Android Game)</li>
+							<li class="mb-1">Honu (Website)</li>
+							<li class="mb-1">Kina Means Business (Website)</li>
+							<li class="mb-1">Xperts University (Website)</li>
+							<li class="mb-1">Daily Skin Clinic (Website)</li>
+							<li class="mb-1">The Blu Hotel (Website)</li>
+							<li class="mb-1">SneakerVerse (NFT and Website)</li>
+							<li class="mb-1">eBuloy (Web App)</li>
 							<li class="mb-1">Madle Scapes (Android Game)</li>
+							<li class="mb-1">Math Dommable (Android Game)</li>
+							<li class="mb-1">Physics Simulations (Desktop App)</li>
+							<li class="mb-1">Loan Management System (Android App)</li>
+							<li class="mb-1">Pulmonary Healthcare Assistant and Reminder forMedicine Assimilation (Android App)</li>
+							<li class="mb-1">Albay 2nd District Commercial EstablishmentProximity Map Locator (Android App)</li>
+							<li class="mb-1">Project Mobili (Android App)</li>
+							<li class="mb-1">Design of Reinforced T-Beams (Android App)</li>
+							<li class="mb-1">Soil Classification (Android App)</li>
+							<li class="mb-1">Reinforced Concrete Columns (Android App)</li>
+							<li class="mb-1">Beam Deflection Using Area Moment Method (Android App)</li>
 						</ul>
 					</div>
-					
+
 					<div class="wow fadeIn">
 						<div class="d-flex align-items-center">
 							<div class="d-flex justify-content-center align-items-center rounded-circle bg-color-3 mr-3" style="width:40px; height:40px">
@@ -400,1415 +405,1421 @@
 							</div>
 							<h5 class="font-weight-bold mb-0 text-color-3">Character Reference</h5>
 						</div>
-						
+
 						<hr class="mt-2 bg-color-3">
-						
+
 						<h6 class="mb-0">Jose P. Bermundo <span class="font-italic">(+63 917 679 1822)</span></h6>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-<div class="bg-color-2">
-	<div class="container pt-3">
-		<h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; padding-top:0px !important; font-size:2.4em; font-weight:600">My Works</h2>
-		
-		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
-			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">10XPhilippines</h4>
-			</div>
-			<div class="card-body">
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/10xphilippines/1.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/10xphilippines/1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/10xphilippines/2.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/10xphilippines/2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/10xphilippines/3.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/10xphilippines/3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/10xphilippines/4.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/10xphilippines/4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.5s">
-						<a href="img/10xphilippines/5.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/10xphilippines/5.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.6s">
-						<a href="img/10xphilippines/6.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/10xphilippines/6.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.7s">
-						<a href="img/10xphilippines/7.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/10xphilippines/7.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.8s">
-						<a href="img/10xphilippines/8.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/10xphilippines/8.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-				</div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About 10XPhilippines</h5>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">A collection of store deals, discounts, promos and giveaways. Also includes digital contact tracing for Covid-19 using QR Codes.</p>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
-				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/laravel.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Laravel</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/bootstrap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap</div>
-					</div>
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
-					</div>
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/vuejs.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Vue.js</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
-			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Fairwin Trading Corp</h4>
-			</div>
-			<div class="card-body">
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/fairwin/1.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/fairwin/1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/fairwin/2.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/fairwin/2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/fairwin/3.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/fairwin/3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/fairwin/4.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/fairwin/4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.5s">
-						<a href="img/fairwin/5.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/fairwin/5.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.6s">
-						<a href="img/fairwin/6.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/fairwin/6.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.7s">
-						<a href="img/fairwin/7.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/fairwin/7.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.8s">
-						<a href="img/fairwin/8.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/fairwin/8.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-				</div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Fairwin Trading Corp</h5>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">An e-commerce website which gives its users several ways to earn.</p>
-				
-				<div class="row">
-					<div class="col-sm-6 col-lg-4">
-						<ul class="card-text mb-0">
-							<li>Retailing up to 48% profit</li>
-						</ul>
-					</div>
-					<div class="col-sm-6 col-lg-4">
-						<ul class="card-text mb-0">
-							<li>Direct Referral</li>
-						</ul>
-					</div>
-					<div class="col-sm-6 col-lg-4">
-						<ul class="card-text mb-0">
-							<li>Indirect Referral</li>
-						</ul>
-					</div>
-					<div class="col-sm-6 col-lg-4">
-						<ul class="card-text mb-0">
-							<li>Uni-level Bonus</li>
-						</ul>
-					</div>
-					<div class="col-sm-6 col-lg-4">
-						<ul class="card-text mb-0">
-							<li>Profit share pool bonus</li>
-						</ul>
-					</div>
-					<div class="col-sm-6 col-lg-4">
-						<ul class="card-text mb-0">
-							<li>Stair steps Rewards</li>
-						</ul>
-					</div>
-					<div class="col-sm-6 col-lg-4">
-						<ul class="card-text mb-0">
-							<li>Infinity PLUS bonus</li>
-						</ul>
-					</div>
-					<div class="col-sm-6 col-lg-4">
-						<ul class="card-text mb-0">
-							<li>Royalty Bonus Rewards</li>
-						</ul>
-					</div>
-					<div class="col-sm-6 col-lg-4">
-						<ul class="card-text mb-0">
-							<li>Rank Incentives</li>
-						</ul>
-					</div>
-				</div>
-				
-				<p class="card-text text-justify wow fadeIn mt-4" data-wow-delay="0.2s"><b>Vision.</b> A strong and innovative Global enterprise, guided by the ethics of FAIRNESS and WIN-WIN principle, sharing hope and transforming lives for God’s glory.</p>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s"><b>Mission.</b> To develop FAIR-WINNER Leaders and provide quality products, services and opportunities; uplifting Health, Wealth and a Joyful life, while ministering to the needs of others showing God’s love to everyone</p>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
-				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/php7.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">PHP 7</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/bootstrap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap</div>
-					</div>
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
-					</div>
-				</div>
-				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">
-				
-				<div class="text-center wow fadeIn" data-wow-delay="0.2s">
-					<a href="https://8fairwin8tradingcorp.com/" target="_blank" class="btn btn-custom-2" style="width:240.766px"><i class="fas fa-desktop mr-1"></i> Visit Site</a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
-			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">xpeto</h4>
-			</div>
-			<div class="card-body">
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/xpeto/1.webp" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/xpeto/1.webp" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/xpeto/2.webp" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/xpeto/2.webp" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/xpeto/3.webp" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/xpeto/3.webp" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/xpeto/4.webp" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/xpeto/4.webp" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-				</div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About xpeto</h5>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">xpeto, a Singapore-based company, is a partner portal dedicated in maximizing the benefits of every member of a channel partner network.</p>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
-				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/laravel.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Laravel</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/bootstrap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap</div>
-					</div>
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
-					</div>
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/solidity.webp" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Solidity &amp; Ethereum</div>
-					</div>
-				</div>
-				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">
-				
-				<div class="text-center wow fadeIn" data-wow-delay="0.2s">
-					<a href="https://app.xpeto.com" target="_blank" class="btn btn-custom-2" style="width:240.766px"><i class="fas fa-desktop mr-1"></i> Visit Site</a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
-			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Kangen Wellness Center</h4>
-			</div>
-			<div class="card-body">
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/kangen-wellness-center/1.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/kangen-wellness-center/1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/kangen-wellness-center/2.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/kangen-wellness-center/2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/kangen-wellness-center/3.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/kangen-wellness-center/3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/kangen-wellness-center/4.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/kangen-wellness-center/4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/kangen-wellness-center/5.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/kangen-wellness-center/5.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/kangen-wellness-center/6.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/kangen-wellness-center/6.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/kangen-wellness-center/7.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/kangen-wellness-center/7.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/kangen-wellness-center/8.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/kangen-wellness-center/8.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-				</div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Kangen Wellness Center</h5>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">KWC or Kangen Wellness Center is a company that primarily promotes greater health and wellness of the people. This can be achieved by providing the latest innovative quality products and services through an online E-Commerce Platform. It also provides a sustainable income generating program from very reliable Four (4) proven income sources.</p>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">The Company is composed of a team of Health Advocates, Financial Analysts, IT Experts and Professional Cryptocurrency and Forex Traders. With the vast knowledge and expertise in the health and financial industry of its core members and with a great synergy that encompasses each member, it will continue to bring about a good change and innovation into the society today. The Company, by being receptive to the health and financial needs of the people, will continue to uplift and impact the lives of every individual.</p>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
-				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/php7.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">PHP 7</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/bootstrap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap</div>
-					</div>
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
-			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Beam Deflection using Area Moment Method</h4>
-			</div>
-			<div class="card-body">
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/deflection-1.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/deflection-1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/deflection-2.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/deflection-2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/deflection-3.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/deflection-3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/deflection-4.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/deflection-4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
-						<a href="img/deflection-5.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/deflection-5.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
-						<a href="img/deflection-6.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/deflection-6.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-                </div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Beam Deflection using Area-Moment Method</h5>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">Beam Deflection using AMM is an Android application built as an engineering calculator that determines the slopes and deflection in simply-supported and cantilever beams using area-moment method.</p>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Researchers</h5>
-				<div class="row wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-sm-12 col-md-5 col-lg-4 col-xl-3">
-						<p class="card-text text-center mb-1">Engr. Deo Erndrie L. Pineda</p>
-						<p class="card-text text-center mb-3"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> erndrie@gmail.com</span></p>
-					</div>
-					<div class="col-sm-12 col-md-5 col-lg-4 col-xl-3">
-						<p class="card-text text-center mb-1">Engr. Butch Felix O. Javier</p>
-						<p class="card-text text-center mb-3"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> butchfelix.javier@bicol-u.edu.ph</span></p>
-					</div>
-				</div>
-				
-				<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
-				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/sigmajs.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">SigmaJs</div>
-					</div>
-					<div class="offset-4 col-4 offset-sm-0 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/mathquill.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Mathquill</div>
-					</div>
-				</div>
-				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">
-				
-				<div class="text-center wow fadeIn" data-wow-delay="0.2s">
-					<a href="http://play.google.com/store/apps/details?id=online.bigclap365marketing_service.deflection" target="_blank" class="btn btn-custom-2"><i class="fab fa-google-play mr-1"></i> View on Google Play</a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
-			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Design of Reinforced T-Beams</h4>
-			</div>
-			<div class="card-body">
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/tbeam-1.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/tbeam-1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/tbeam-2.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/tbeam-2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/tbeam-3.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/tbeam-3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/tbeam-4.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/tbeam-4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
-						<a href="img/tbeam-5.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/tbeam-5.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
-						<a href="img/tbeam-6.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/tbeam-6.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-                </div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Design of Reinforced T-Beams</h5>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">Design of Reinforced T-Beams is an Android application for designing interior and symmetrical interior T-beams. It determines whether the beam is singly or doubly reinforced and whether the design is adequate or not.</p>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Researchers</h5>
-				<div class="row wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-sm-6 col-md-5 col-lg-4 col-xl-3">
-						<p class="card-text text-center mb-1">Engr. Yvonne Estiller</p>
-						<p class="card-text text-center mb-3"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> bewestiller@gmail.com</span></p>
-					</div>
-					<div class="col-sm-6 col-md-5 col-lg-4 col-xl-3">
-						<p class="card-text text-center mb-1">Engr. Beatrice Ferreras</p>
-						<p class="card-text text-center mb-3"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> beatriceferreras@gmail.com</span></p>
-					</div>
-				</div>
-				
-				<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
-				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/sigmajs.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">SigmaJs</div>
-					</div>
-				</div>
-				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">
-				
-				<div class="text-center wow fadeIn" data-wow-delay="0.2s">
-					<a href="http://play.google.com/store/apps/details?id=online.bigclap365marketing_service.tbeams" target="_blank" class="btn btn-custom-2"><i class="fab fa-google-play mr-1"></i> View on Google Play</a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
-			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Soil Classification</h4>
-			</div>
-			<div class="card-body">
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/soil-1.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/soil-1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/soil-2.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/soil-2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/soil-3.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/soil-3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/soil-4.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/soil-4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
-						<a href="img/soil-5.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/soil-5.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
-						<a href="img/soil-6.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/soil-6.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-                </div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Soil Classification</h5>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">Soil Classification is an Android application that classifies soil based on the Unified Soil Classification System (USCS). It contains additional soil bearing calculator that is based on the N-values of standard penetration test (SPT).</p>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Researchers</h5>
-				<div class="row wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-sm-6 col-md-4 col-lg-3">
-						<p class="card-text text-center mb-1">Engr. Xavier Dominic P. Labayo</p>
-						<p class="card-text text-center mb-3"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> labayox@gmail.com</span></p>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-3">
-						<p class="card-text text-center mb-1">Engr. Deoneal Bryant Consulta</p>
-						<p class="card-text text-center mb-3"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> nealdeo422@yahoo.com</span></p>
-					</div>
-				</div>
-				
-				<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
-				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/sigmajs.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">SigmaJs</div>
-					</div>
-				</div>
-				<hr class="wow fadeIn" data-wow-delay="0.2s"style="margin-top:0px">
-				
-				<div class="text-center wow fadeIn" data-wow-delay="0.2s">
-					<a href="http://play.google.com/store/apps/details?id=online.bigclap365marketing_service.soilclassification" target="_blank" class="btn btn-custom-2"><i class="fab fa-google-play mr-1"></i> View on Google Play</a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
-			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Reinforced Concrete Columns</h4>
-			</div>
-			<div class="card-body">
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/reinforced-concrete-columns/1.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/reinforced-concrete-columns/1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/reinforced-concrete-columns/2.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/reinforced-concrete-columns/2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/reinforced-concrete-columns/3.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/reinforced-concrete-columns/3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/soil-4.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/reinforced-concrete-columns/4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
-						<a href="img/reinforced-concrete-columns/5.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/reinforced-concrete-columns/5.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
-						<a href="img/reinforced-concrete-columns/6.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/reinforced-concrete-columns/6.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-				</div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Reinforced Concrete Columns</h5>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">An Android app that gets the analysis and design of Tied and Spiral Columns, and ties, spiral and steel tubing of Composite Columns.</p>
-				
-				<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
-				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
-					</div>
-				</div>
-				<hr class="wow fadeIn" data-wow-delay="0.2s"style="margin-top:0px">
-				
-				<div class="text-center wow fadeIn" data-wow-delay="0.2s">
-					<a href="https://github.com/bernardhistorillo/bernardhistorillo.github.io/releases/latest/download/reinforced-concrete-columns.apk" download="reinforced-concrete-columns.apk" class="btn btn-custom-2"><i class="fab fa-android mr-1"></i> Download APK</a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
-			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Physics Simulations</h4>
-			</div>
-			<div class="card-body">
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/physics-1.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/physics-1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-						<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Work and Power (Lifting Coconuts)</div>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/physics-2.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/physics-2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-						<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Work and Power (Pushing Tree)</div>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/physics-3.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/physics-3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-						<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Law of Action and Reaction</div>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/physics-4.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/physics-4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-						<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Law of Inertia (At Rest)</div>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.5s">
-						<a href="img/physics-5.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/physics-5.png" class="lazy img-fluid" style="width:100%">
-						</a>
-						<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Law of Inertia (Constant Motion)</div>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.6s">
-						<a href="img/physics-6.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/physics-6.png" class="lazy img-fluid" style="width:100%">
-						</a>
-						<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Law of Inertia (Circular Motion)</div>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.7s">
-						<a href="img/physics-7.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/physics-7.png" class="lazy img-fluid" style="width:100%">
-						</a>
-						<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Potential and Kinetic Energy</div>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.8s">
-						<a href="img/physics-8.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/physics-8.png" class="lazy img-fluid" style="width:100%">
-						</a>
-						<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Law of Acceleration</div>
-					</figure>
-                </div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Physics Simulations</h5>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">A collection of interactive science simulations developed to be a game-like environment for students. The collection composes of topics: Law of Inertia, Law of Action and Reaction, Work and Power, Potential and Kinetic Energy, and Law of Acceleration.</p>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Team</h5>
-				<div class="row wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-md-6 col-lg-4 col-xl-3">
-						<p class="card-text text-center mb-1">Paul James Basmayor</p>
-						<p class="card-text text-center mb-1"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> paulbasmayor19@gmail.com</span></p>
-						<p class="card-text text-center mb-3">Researcher</p>
-					</div>
-					<div class="col-md-6 col-lg-4 col-xl-3">
-						<p class="card-text text-center mb-1">Ismael Jerusalem</p>
-						<p class="card-text text-center mb-1"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> ismaeljerusalem008@gmail.com</span></p>
-						<p class="card-text text-center mb-3">Graphic Designer</p>
-					</div>
-					<div class="offset-md-3 col-md-6 offset-lg-0 col-lg-4 col-xl-3">
-						<p class="card-text text-center mb-1">Bernard Q. Historillo</p>
-						<p class="card-text text-center mb-1"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> bernard.historillo@bicol-u.edu.ph</span></p>
-						<p class="card-text text-center mb-3">Programmer</p>
-					</div>
-				</div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
-				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/unity.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Unity</div>
-					</div>
-				</div>
-				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">
-				
-				<div class="text-center wow fadeIn" data-wow-delay="0.2s">
-					<a href="physics-simulation/law-of-inertia/" target="_blank" class="btn btn-custom-2"><i class="fas fa-desktop mr-1"></i> View Simulations</a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
-			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Albay 2nd District Commercial Establishment Proximity Map Locator <span style="font-style:italic">(Study)</span></h4>
-			</div>
-			<div class="card-body">
-				<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Android App</h5>
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/acepml-mobile-1.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/acepml-mobile-1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/acepml-mobile-2.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/acepml-mobile-2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/acepml-mobile-3.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/acepml-mobile-3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/acepml-mobile-4.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/acepml-mobile-4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
-						<a href="img/acepml-mobile-5.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/acepml-mobile-5.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
-						<a href="img/acepml-mobile-6.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/acepml-mobile-6.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-                </div>
-				
-				<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Admin</h5>
-				<div class="mdb-lightbox row mt-3 mx-1" data-pswp-uid="5">
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/acepml-web-1.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/acepml-web-1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/acepml-web-2.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/acepml-web-2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/acepml-web-3.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/acepml-web-3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/acepml-web-4.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/acepml-web-4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-                </div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Albay 2nd District Commercial Establishment Proximity Map Locator</h5>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">ACEPML (Albay 2nd District Commercial Establishment Proximity Map Locator) is an exciting project aimed at revolutionizing the way people navigate through Albay's bustling commercial scene. Through cutting-edge Android technology, ACEPML will provide users with a comprehensive map that displays all of the best shopping, dining, and entertainment options in the area, all at the touch of a button. Whether you're a local resident or just passing through, ACEPML is the perfect tool to help you discover the hidden gems that Albay has to offer.</p>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
-				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/php7.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">PHP 7</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/bootstrap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap</div>
-					</div>
-					<div class="offset-2 col-4 offset-sm-0 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/mdbootstrap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap Material Design UI Kit</div>
-					</div>
-					<div class="col-4 offset-sm-4 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
-					</div>
-				</div>
+<!--	SpotCheck is a cutting-edge platform designed with the traveler's health and safety in mind. Mirroring popular features from platforms like Trip Advisor, SpotCheck takes a step further by focusing on Covid-19 prevention. Users can explore various establishments, review safety measures implemented, and plan their visits with confidence. The integration of search functionality and Google Maps ensures a seamless navigation experience, connecting users with safe and responsible destinations during these unprecedented times.-->
+<!--	OnliCoin is an innovative cryptocurrency platform deployed on the Ethereum Mainnet, designed to empower users with the ability to manage their OnliCoin tokens with ease and security. Beyond mere management, the platform also offers unique earning opportunities through various features and leverages a referral system to expand its community reach. It symbolizes a fusion of advanced blockchain technology with a user-centric approach, providing an intuitive and rewarding experience for both newcomers and seasoned cryptocurrency enthusiasts.-->
+<!--	Biocare Multipurpose Cooperative is a dynamic network marketing platform specializing in health products. It transcends traditional e-commerce by integrating a multi-faceted earning system for its users, making wellness both a personal and financial pursuit. The platform's blend of high-quality health products with innovative earning features provides a unique and rewarding experience, aligning individual well-being with community growth.-->
+<!--	Big Clap 365 Marketing is a revolutionary network and affiliate marketing platform that creates a unique ecosystem for sellers and affiliates. By bridging the gap between product sellers and marketing affiliates, it offers an opportunity for seamless collaboration and growth. Users can not only discover and promote an array of products but also earn through various engaging and rewarding ways. The platform stands as a testimony to innovation in e-commerce, turning shopping into an interactive and profitable experience.-->
 
-<!--				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">-->
-<!--				-->
-<!--				<div class="text-center wow fadeIn" data-wow-delay="0.2s">-->
-<!--&lt;!&ndash;					<a href="https://bigclap365marketing-service.online/developer/acepml/admin/" target="_blank" class="btn blue-gradient" style="width:240.766px"><i class="fas fa-desktop mr-1"></i> View Web Admin</a>&ndash;&gt;-->
-<!--					<a href="http://play.google.com/store/apps/details?id=online.bigclap365marketing_service.acepml" target="_blank" class="btn btn-custom-2" style="width:240.766px"><i class="fab fa-google-play mr-1"></i> View on Google Play</a>-->
-<!--				</div>-->
-			</div>
-		</div>
-		
-		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
-			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Pulmonary Healthcare Assistant and Reminder for Medicine Assimilation <span style="font-style:italic">(Study)</span></h4>
-			</div>
-			<div class="card-body">
-				<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Android App</h5>
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/pharma-mobile-1.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/pharma-mobile-1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/pharma-mobile-2.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/pharma-mobile-2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/pharma-mobile-3.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/pharma-mobile-3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/pharma-mobile-4.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/pharma-mobile-4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
-						<a href="img/pharma-mobile-5.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/pharma-mobile-5.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
-						<a href="img/pharma-mobile-6.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/pharma-mobile-6.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-                </div>
-				
-				<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Admin</h5>
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/pharma-web-1.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/pharma-web-1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/pharma-web-2.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/pharma-web-2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/pharma-web-3.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/pharma-web-3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/pharma-web-4.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/pharma-web-4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-                </div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Pulmonary Healthcare Assistant and Reminder for Medicine Assimilation</h5>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">This groundbreaking study offers an innovative solution for individuals suffering from pulmonary diseases. This expert system has been designed to provide users with a comprehensive list of prescription and alternative medicines, tailored to their specific health condition. With six interactive modules, the system is user-friendly and provides a wealth of information on dosage, content, and combination, as well as age restrictions, administration, indications, contraindications, warnings, and precautions.</p>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">The Medicine Information Module offers a wide range of brand and generic drugs, along with vital information about each drug. The Inquiry Module provides a detailed summary of respiratory diseases, while the Medicine Interaction Module identifies any potentially harmful interactions between multiple medications. In addition, the Alternative Medicines Module features popular herbal supplements and cautions users about possible side effects when taken alone or with other medication dosages.</p>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">For added convenience, the Assistant Module sends users mobile alerts to ensure they never miss a medication dosage or important information. Finally, our Activity Log records all transactions, allowing users to keep track of their interactions with the system.</p>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">Overall, this expert system is a game-changer for individuals with pulmonary diseases, offering a comprehensive and user-friendly approach to medication management.</p>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
-				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/bootstrap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap</div>
-					</div>
-					<div class="offset-2 col-4 offset-sm-0 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/mdbootstrap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap Material Design UI Kit</div>
-					</div>
-					<div class="col-4 offset-sm-4 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
-					</div>
-				</div>
+	<div class="bg-color-2 d-print-none">
+		<div class="container pt-3">
+			<h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; padding-top:0px !important; font-size:2.4em; font-weight:600">My Works</h2>
 
-<!--				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">-->
-<!--				-->
-<!--				<div class="text-center wow fadeIn" data-wow-delay="0.2s">-->
-<!--					<a href="http://play.google.com/store/apps/details?id=online.bigclapmarketing_service.pharma" target="_blank" class="btn btn-custom-2" style="width:240.766px"><i class="fab fa-google-play mr-1"></i> View on Google Play</a>-->
-<!--				</div>-->
-			</div>
-		</div>
-		
-		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
-			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Math Dommable</h4>
-			</div>
-			<div class="card-body">
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/math-dommable/1.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/math-dommable/1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/math-dommable/2.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/math-dommable/2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/math-dommable/3.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/math-dommable/3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/math-dommable/4.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/math-dommable/4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
-						<a href="img/math-dommable/5.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/math-dommable/5.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
-						<a href="img/math-dommable/6.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/math-dommable/6.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
+			<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+				<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+					<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">10XPhilippines</h4>
 				</div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Math Dommable</h5>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">An exciting Android 2D app game that blends the fun and strategic elements of both domino and scrabble games - a perfect combination for puzzle lovers and math enthusiasts alike. The objective of the game is to create mathematical expressions using dominoes and earn points based on the results of each expression. With a visually engaging game board, players can immerse themselves in the game while improving their math skills.</p>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">As players progress through the game, they will face increasing challenges that require strategic planning and problem-solving skills to succeed. The game offers different difficulty levels, including easy, average, and difficult, allowing players of all skill levels to enjoy the game at their own pace. The game also offers a 'player versus computer' feature, making it possible to play against the computer and test your skills.</p>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">With the game ending once all dominoes have been used up or no more valid moves can be made, every turn counts, and players must think strategically to outscore their opponents. The player who earns the highest score emerges victorious, making for an exhilarating gameplay experience.</p>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">Overall, this app is a must-have for anyone who loves puzzle games, math, or strategic gameplay.</p>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Team</h5>
-				<div class="d-flex align-items-center flex-wrap wow fadeIn" data-wow-delay="0.2s">
-					<div class="pr-4">
-						<p class="card-text text-center mb-1">Rose Nunez</p>
-						<p class="card-text text-center mb-3">Researcher</p>
+				<div class="card-body">
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/10xphilippines/1.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/10xphilippines/1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/10xphilippines/2.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/10xphilippines/2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/10xphilippines/3.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/10xphilippines/3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/10xphilippines/4.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/10xphilippines/4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.5s">
+							<a href="img/10xphilippines/5.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/10xphilippines/5.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.6s">
+							<a href="img/10xphilippines/6.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/10xphilippines/6.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.7s">
+							<a href="img/10xphilippines/7.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/10xphilippines/7.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.8s">
+							<a href="img/10xphilippines/8.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/10xphilippines/8.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
 					</div>
-					<div class="px-4">
-						<p class="card-text text-center mb-1">Ma. Cena Arevalo</p>
-						<p class="card-text text-center mb-3">Researcher</p>
-					</div>
-					<div class="px-4">
-						<p class="card-text text-center mb-1">Cristine Joy Ty</p>
-						<p class="card-text text-center mb-3">Researcher</p>
-					</div>
-					<div class="px-4">
-						<p class="card-text text-center mb-1">Cristine Laurio</p>
-						<p class="card-text text-center mb-3">Researcher</p>
-					</div>
-					<div class="pl-4">
-						<p class="card-text text-center mb-1">Bernard Q. Historillo</p>
-						<p class="card-text text-center mb-1"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> bernard.historillo@bicol-u.edu.ph</span></p>
-						<p class="card-text text-center mb-3">Programmer</p>
-					</div>
-				</div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
-				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/unity.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Unity</div>
-					</div>
-				</div>
-<!--				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">-->
-<!--				-->
-<!--				<div class="text-center wow fadeIn" data-wow-delay="0.2s">-->
-<!--					<a href="http://play.google.com/store/apps/details?id=online.bigclapmarketing_service.pharma" target="_blank" class="btn blue-gradient" style="width:240.766px"><i class="fab fa-google-play mr-1"></i> View on Google Play</a>-->
-<!--				</div>-->
-			</div>
-		</div>
-		
-		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
-			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">PROJECT MOBILI</h4>
-			</div>
-			<div class="card-body">
-				<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Android App Version</h5>
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/mobili-mobile-1.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/mobili-mobile-1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/mobili-mobile-2.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/mobili-mobile-2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/mobili-mobile-3.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/mobili-mobile-3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/mobili-mobile-4.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/mobili-mobile-4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
-						<a href="img/mobili-mobile-5.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/mobili-mobile-5.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
-						<a href="img/mobili-mobile-6.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/mobili-mobile-6.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-				</div>
-				
-				<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Web Version</h5>
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/mobili-web-1.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/mobili-web-1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/mobili-web-2.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/mobili-web-2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/mobili-web-3.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/mobili-web-3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/mobili-web-4.png" data-size="1400x1050">
-							<img src="img/4x3.png" data-src="img/mobili-web-4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-				</div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About PROJECT MOBILI</h5>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">A powerful web and mobile platform solution that empowers businesses to reach their customers. With this innovative platform, businesses of all sizes can advertise their products or services to potential customers via both web and mobile app channels, making it easier than ever to connect with their audience.</p>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">This platform also features a unique Revenue Sharing Model that rewards its affiliates for promoting their products and services. Every purchase generated through an affiliate's promotion earns them a share of the revenue, incentivizing them to continue spreading the word about their business.</p>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">With this cutting-edge technology and customer-focused approach, a business can achieve unprecedented levels of success and growth.</p>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
-				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/php7.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">PHP 7</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
-					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/bootstrap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap</div>
-					</div>
-					<div class="col-4 offset-sm-0 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/mdbootstrap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap Material Design UI Kit</div>
-					</div>
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
-					</div>
-					<div class="col-4 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/treantjs.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Treant.JS</div>
-					</div>
-				</div>
-<!--				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">-->
-				
-				<!--				<div class="text-center wow fadeIn" data-wow-delay="0.2s">-->
-				<!--					<a href="https://bigclap365marketing-service.online/mobili/" target="_blank" class="btn blue-gradient" style="width:240.766px"><i class="fas fa-desktop mr-1"></i> View Web Version</a>-->
-				<!--					<a href="http://play.google.com/store/apps/details?id=online.bigclap365marketing_service.mobili" target="_blank" class="btn blue-gradient" style="width:240.766px"><i class="fab fa-google-play mr-1"></i> View on Google Play</a>-->
-				<!--				</div>-->
-			</div>
-		</div>
-		
-		<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
-			<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
-				<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Loan Management System</h4>
-			</div>
-			<div class="card-body">
-				<div class="mdb-lightbox row mt-3 mx-1">
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
-						<a href="img/lms/1.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/lms/1.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
-						<a href="img/lms/2.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/lms/2.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
-						<a href="img/lms/3.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/lms/3.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
-						<a href="img/lms/4.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/lms/4.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
-						<a href="img/lms/5.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/lms/5.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-					<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
-						<a href="img/lms/6.png" data-size="600x1200">
-							<img src="img/1x2.png" data-src="img/lms/6.png" class="lazy img-fluid" style="width:100%">
-						</a>
-					</figure>
-				</div>
-				
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Loan Management System</h5>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">A cutting-edge Android app designed to streamline loan management for businesses and lenders alike. The app empowers lenders to effortlessly track their clients' loan payments and charges, providing unparalleled transparency and accountability throughout the repayment process.</p>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">The app also features a comprehensive system for collectors, allowing them to quickly and easily submit their clients' payments without the need for complicated paperwork or time-consuming manual data entry.</p>
-				<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">With intuitive functionality and seamless integration, the app is the ultimate solution for businesses looking to take their loan management to the next level.</p>
 
-				<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
-				<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/php7.png" class="lazy img-fluid" style="width:100%">
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About 10XPhilippines</h5>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">The website is a one-stop destination for bargain-hunters and savvy shoppers, offering a curated collection of the latest store deals, discounts, promos, and giveaways. Whether looking for daily steals or seasonal sales, users can easily explore a wide range of offers tailored to their interests and needs. In addition to facilitating smart shopping, the website prioritizes community safety with its digital contact tracing feature. Leveraging QR Code technology, it aids in the fight against Covid-19 by providing a secure and convenient way to track and report contacts, aligning savings with social responsibility.</p>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
+					<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/laravel.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Laravel</div>
 						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">PHP 7</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/bootstrap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap</div>
+						</div>
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
+						</div>
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/vuejs.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Vue.js</div>
+						</div>
 					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
-						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
+				</div>
+			</div>
+
+			<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+				<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+					<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Fairwin Trading Corp</h4>
+				</div>
+				<div class="card-body">
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/fairwin/1.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/fairwin/1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/fairwin/2.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/fairwin/2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/fairwin/3.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/fairwin/3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/fairwin/4.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/fairwin/4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.5s">
+							<a href="img/fairwin/5.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/fairwin/5.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.6s">
+							<a href="img/fairwin/6.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/fairwin/6.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.7s">
+							<a href="img/fairwin/7.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/fairwin/7.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.8s">
+							<a href="img/fairwin/8.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/fairwin/8.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
 					</div>
-					<div class="col-4 col-sm-3 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Fairwin Trading Corp</h5>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">An e-commerce website which gives its users several ways to earn.</p>
+
+					<div class="row">
+						<div class="col-sm-6 col-lg-4">
+							<ul class="card-text mb-0">
+								<li>Retailing up to 48% profit</li>
+							</ul>
 						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
+						<div class="col-sm-6 col-lg-4">
+							<ul class="card-text mb-0">
+								<li>Direct Referral</li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<ul class="card-text mb-0">
+								<li>Indirect Referral</li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<ul class="card-text mb-0">
+								<li>Uni-level Bonus</li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<ul class="card-text mb-0">
+								<li>Profit share pool bonus</li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<ul class="card-text mb-0">
+								<li>Stair steps Rewards</li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<ul class="card-text mb-0">
+								<li>Infinity PLUS bonus</li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<ul class="card-text mb-0">
+								<li>Royalty Bonus Rewards</li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<ul class="card-text mb-0">
+								<li>Rank Incentives</li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
-						<div>
-							<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
+
+					<p class="card-text text-justify wow fadeIn mt-4" data-wow-delay="0.2s"><b>Vision.</b> A strong and innovative Global enterprise, guided by the ethics of FAIRNESS and WIN-WIN principle, sharing hope and transforming lives for God’s glory.</p>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s"><b>Mission.</b> To develop FAIR-WINNER Leaders and provide quality products, services and opportunities; uplifting Health, Wealth and a Joyful life, while ministering to the needs of others showing God’s love to everyone</p>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
+					<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/php7.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">PHP 7</div>
 						</div>
-						<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/bootstrap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap</div>
+						</div>
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
+						</div>
+					</div>
+					<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">
+
+					<div class="text-center wow fadeIn" data-wow-delay="0.2s">
+						<a href="https://8fairwin8tradingcorp.com/" target="_blank" class="btn btn-custom-2" style="width:240.766px"><i class="fas fa-desktop mr-1"></i> Visit Site</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+				<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+					<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">xpeto</h4>
+				</div>
+				<div class="card-body">
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/xpeto/1.webp" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/xpeto/1.webp" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/xpeto/2.webp" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/xpeto/2.webp" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/xpeto/3.webp" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/xpeto/3.webp" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/xpeto/4.webp" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/xpeto/4.webp" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About xpeto</h5>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">xpeto, a Singapore-based company, is a partner portal dedicated in maximizing the benefits of every member of a channel partner network.</p>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
+					<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/laravel.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Laravel</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/bootstrap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap</div>
+						</div>
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
+						</div>
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/solidity.webp" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Solidity &amp; Ethereum</div>
+						</div>
+					</div>
+					<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">
+
+					<div class="text-center wow fadeIn" data-wow-delay="0.2s">
+						<a href="https://app.xpeto.com" target="_blank" class="btn btn-custom-2" style="width:240.766px"><i class="fas fa-desktop mr-1"></i> Visit Site</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+				<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+					<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Kangen Wellness Center</h4>
+				</div>
+				<div class="card-body">
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/kangen-wellness-center/1.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/kangen-wellness-center/1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/kangen-wellness-center/2.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/kangen-wellness-center/2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/kangen-wellness-center/3.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/kangen-wellness-center/3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/kangen-wellness-center/4.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/kangen-wellness-center/4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/kangen-wellness-center/5.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/kangen-wellness-center/5.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/kangen-wellness-center/6.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/kangen-wellness-center/6.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/kangen-wellness-center/7.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/kangen-wellness-center/7.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/kangen-wellness-center/8.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/kangen-wellness-center/8.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Kangen Wellness Center</h5>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">KWC, short for Kangen Wellness Center, is a mission-driven platform dedicated to enhancing the well-being and financial prosperity of individuals. Through its intuitive E-Commerce Platform, KWC offers an array of innovative, high-quality health products and services, all geared toward promoting a healthier lifestyle. Alongside these offerings, KWC presents an exciting income-generating program anchored in four robust and proven revenue streams. As a dynamic collaboration of Health Advocates, Financial Analysts, IT Experts, Cryptocurrency and Forex Traders, KWC leverages collective wisdom to create positive change and innovation. Committed to responding to the health and financial needs of today's society, KWC stands as a beacon of impact, fostering growth and transformation in countless lives.</p>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
+					<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/php7.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">PHP 7</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/bootstrap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap</div>
+						</div>
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+				<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+					<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Beam Deflection using Area Moment Method</h4>
+				</div>
+				<div class="card-body">
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/deflection-1.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/deflection-1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/deflection-2.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/deflection-2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/deflection-3.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/deflection-3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/deflection-4.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/deflection-4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
+							<a href="img/deflection-5.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/deflection-5.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
+							<a href="img/deflection-6.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/deflection-6.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Beam Deflection using Area-Moment Method</h5>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">Beam Deflection using Area Moment Method is an Android application designed as an engineering tool to calculate the slopes and deflection in simply-supported and cantilever beams, utilizing the area-moment method for precise structural analysis.</p>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Researchers</h5>
+					<div class="row wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-sm-12 col-md-5 col-lg-4 col-xl-3">
+							<p class="card-text text-center mb-1">Engr. Deo Erndrie L. Pineda</p>
+							<p class="card-text text-center mb-3"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> erndrie@gmail.com</span></p>
+						</div>
+						<div class="col-sm-12 col-md-5 col-lg-4 col-xl-3">
+							<p class="card-text text-center mb-1">Engr. Butch Felix O. Javier</p>
+							<p class="card-text text-center mb-3"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> butchfelix.javier@bicol-u.edu.ph</span></p>
+						</div>
+					</div>
+
+					<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
+					<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/sigmajs.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">SigmaJs</div>
+						</div>
+						<div class="offset-4 col-4 offset-sm-0 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/mathquill.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Mathquill</div>
+						</div>
+					</div>
+					<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">
+
+					<div class="text-center wow fadeIn" data-wow-delay="0.2s">
+						<a href="http://play.google.com/store/apps/details?id=online.bigclap365marketing_service.deflection" target="_blank" class="btn btn-custom-2"><i class="fab fa-google-play mr-1"></i> View on Google Play</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+				<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+					<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Design of Reinforced T-Beams</h4>
+				</div>
+				<div class="card-body">
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/tbeam-1.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/tbeam-1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/tbeam-2.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/tbeam-2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/tbeam-3.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/tbeam-3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/tbeam-4.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/tbeam-4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
+							<a href="img/tbeam-5.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/tbeam-5.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
+							<a href="img/tbeam-6.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/tbeam-6.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Design of Reinforced T-Beams</h5>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">Design of Reinforced T-Beams is an Android application that facilitates the engineering design of interior and symmetrical T-beams, assessing whether the beam is singly or doubly reinforced and evaluating the adequacy of the design.</p>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Researchers</h5>
+					<div class="row wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-sm-6 col-md-5 col-lg-4 col-xl-3">
+							<p class="card-text text-center mb-1">Engr. Yvonne Estiller</p>
+							<p class="card-text text-center mb-3"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> bewestiller@gmail.com</span></p>
+						</div>
+						<div class="col-sm-6 col-md-5 col-lg-4 col-xl-3">
+							<p class="card-text text-center mb-1">Engr. Beatrice Ferreras</p>
+							<p class="card-text text-center mb-3"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> beatriceferreras@gmail.com</span></p>
+						</div>
+					</div>
+
+					<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
+					<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/sigmajs.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">SigmaJs</div>
+						</div>
+					</div>
+					<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">
+
+					<div class="text-center wow fadeIn" data-wow-delay="0.2s">
+						<a href="http://play.google.com/store/apps/details?id=online.bigclap365marketing_service.tbeams" target="_blank" class="btn btn-custom-2"><i class="fab fa-google-play mr-1"></i> View on Google Play</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+				<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+					<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Soil Classification</h4>
+				</div>
+				<div class="card-body">
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/soil-1.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/soil-1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/soil-2.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/soil-2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/soil-3.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/soil-3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/soil-4.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/soil-4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
+							<a href="img/soil-5.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/soil-5.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
+							<a href="img/soil-6.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/soil-6.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Soil Classification</h5>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">Soil Classification is an Android application that categorizes soil using the Unified Soil Classification System (USCS), and includes an additional soil bearing calculator based on the N-values of the standard penetration test (SPT).</p>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Researchers</h5>
+					<div class="row wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-sm-6 col-md-4 col-lg-3">
+							<p class="card-text text-center mb-1">Engr. Xavier Dominic P. Labayo</p>
+							<p class="card-text text-center mb-3"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> labayox@gmail.com</span></p>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3">
+							<p class="card-text text-center mb-1">Engr. Deoneal Bryant Consulta</p>
+							<p class="card-text text-center mb-3"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> nealdeo422@yahoo.com</span></p>
+						</div>
+					</div>
+
+					<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
+					<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/sigmajs.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">SigmaJs</div>
+						</div>
+					</div>
+					<hr class="wow fadeIn" data-wow-delay="0.2s"style="margin-top:0px">
+
+					<div class="text-center wow fadeIn" data-wow-delay="0.2s">
+						<a href="http://play.google.com/store/apps/details?id=online.bigclap365marketing_service.soilclassification" target="_blank" class="btn btn-custom-2"><i class="fab fa-google-play mr-1"></i> View on Google Play</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+				<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+					<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Reinforced Concrete Columns</h4>
+				</div>
+				<div class="card-body">
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/reinforced-concrete-columns/1.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/reinforced-concrete-columns/1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/reinforced-concrete-columns/2.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/reinforced-concrete-columns/2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/reinforced-concrete-columns/3.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/reinforced-concrete-columns/3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/soil-4.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/reinforced-concrete-columns/4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
+							<a href="img/reinforced-concrete-columns/5.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/reinforced-concrete-columns/5.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
+							<a href="img/reinforced-concrete-columns/6.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/reinforced-concrete-columns/6.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Reinforced Concrete Columns</h5>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">Reinforced Concrete Columns is an Android app that facilitates the analysis and design of Tied and Spiral Columns, as well as the ties, spiral, and steel tubing of Composite Columns, serving as a comprehensive tool for structural engineering tasks.</p>
+
+					<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
+					<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
+						</div>
+					</div>
+					<hr class="wow fadeIn" data-wow-delay="0.2s"style="margin-top:0px">
+
+					<div class="text-center wow fadeIn" data-wow-delay="0.2s">
+						<a href="https://github.com/bernardhistorillo/bernardhistorillo.github.io/releases/latest/download/reinforced-concrete-columns.apk" download="reinforced-concrete-columns.apk" class="btn btn-custom-2"><i class="fab fa-android mr-1"></i> Download APK</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+				<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+					<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Physics Simulations</h4>
+				</div>
+				<div class="card-body">
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/physics-1.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/physics-1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+							<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Work and Power (Lifting Coconuts)</div>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/physics-2.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/physics-2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+							<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Work and Power (Pushing Tree)</div>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/physics-3.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/physics-3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+							<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Law of Action and Reaction</div>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/physics-4.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/physics-4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+							<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Law of Inertia (At Rest)</div>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.5s">
+							<a href="img/physics-5.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/physics-5.png" class="lazy img-fluid" style="width:100%">
+							</a>
+							<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Law of Inertia (Constant Motion)</div>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.6s">
+							<a href="img/physics-6.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/physics-6.png" class="lazy img-fluid" style="width:100%">
+							</a>
+							<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Law of Inertia (Circular Motion)</div>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.7s">
+							<a href="img/physics-7.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/physics-7.png" class="lazy img-fluid" style="width:100%">
+							</a>
+							<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Potential and Kinetic Energy</div>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.8s">
+							<a href="img/physics-8.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/physics-8.png" class="lazy img-fluid" style="width:100%">
+							</a>
+							<div style="margin-top:8px; color:#808080; text-align:center; font-size:14px">Law of Acceleration</div>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Physics Simulations</h5>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">This app is a collection of interactive science simulations crafted to create a game-like environment for students, covering essential physics topics such as the Law of Inertia, Law of Action and Reaction, Work and Power, Potential and Kinetic Energy, and the Law of Acceleration, making learning engaging and enjoyable.</p>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Team</h5>
+					<div class="row wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-md-6 col-lg-4 col-xl-3">
+							<p class="card-text text-center mb-1">Paul James Basmayor</p>
+							<p class="card-text text-center mb-1"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> paulbasmayor19@gmail.com</span></p>
+							<p class="card-text text-center mb-3">Researcher</p>
+						</div>
+						<div class="col-md-6 col-lg-4 col-xl-3">
+							<p class="card-text text-center mb-1">Ismael Jerusalem</p>
+							<p class="card-text text-center mb-1"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> ismaeljerusalem008@gmail.com</span></p>
+							<p class="card-text text-center mb-3">Graphic Designer</p>
+						</div>
+						<div class="offset-md-3 col-md-6 offset-lg-0 col-lg-4 col-xl-3">
+							<p class="card-text text-center mb-1">Bernard Q. Historillo</p>
+							<p class="card-text text-center mb-1"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> bernard.historillo@bicol-u.edu.ph</span></p>
+							<p class="card-text text-center mb-3">Programmer</p>
+						</div>
+					</div>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
+					<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/unity.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Unity</div>
+						</div>
+					</div>
+					<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">
+
+					<div class="text-center wow fadeIn" data-wow-delay="0.2s">
+						<a href="physics-simulation/law-of-inertia/" target="_blank" class="btn btn-custom-2"><i class="fas fa-desktop mr-1"></i> View Simulations</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+				<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+					<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Albay 2nd District Commercial Establishment Proximity Map Locator <span style="font-style:italic">(Study)</span></h4>
+				</div>
+				<div class="card-body">
+					<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Android App</h5>
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/acepml-mobile-1.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/acepml-mobile-1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/acepml-mobile-2.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/acepml-mobile-2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/acepml-mobile-3.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/acepml-mobile-3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/acepml-mobile-4.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/acepml-mobile-4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
+							<a href="img/acepml-mobile-5.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/acepml-mobile-5.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
+							<a href="img/acepml-mobile-6.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/acepml-mobile-6.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Admin</h5>
+					<div class="mdb-lightbox row mt-3 mx-1" data-pswp-uid="5">
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/acepml-web-1.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/acepml-web-1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/acepml-web-2.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/acepml-web-2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/acepml-web-3.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/acepml-web-3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/acepml-web-4.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/acepml-web-4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Albay 2nd District Commercial Establishment Proximity Map Locator</h5>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">ACEPML (Albay 2nd District Commercial Establishment Proximity Map Locator) is an exciting project aimed at revolutionizing the way people navigate through Albay's bustling commercial scene. Through cutting-edge Android technology, ACEPML will provide users with a comprehensive map that displays all of the best shopping, dining, and entertainment options in the area, all at the touch of a button. Whether you're a local resident or just passing through, ACEPML is the perfect tool to help you discover the hidden gems that Albay has to offer.</p>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
+					<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/php7.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">PHP 7</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/bootstrap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap</div>
+						</div>
+						<div class="offset-2 col-4 offset-sm-0 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/mdbootstrap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap Material Design UI Kit</div>
+						</div>
+						<div class="col-4 offset-sm-4 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
+						</div>
+					</div>
+
+	<!--				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">-->
+	<!--				-->
+	<!--				<div class="text-center wow fadeIn" data-wow-delay="0.2s">-->
+	<!--&lt;!&ndash;					<a href="https://bigclap365marketing-service.online/developer/acepml/admin/" target="_blank" class="btn blue-gradient" style="width:240.766px"><i class="fas fa-desktop mr-1"></i> View Web Admin</a>&ndash;&gt;-->
+	<!--					<a href="http://play.google.com/store/apps/details?id=online.bigclap365marketing_service.acepml" target="_blank" class="btn btn-custom-2" style="width:240.766px"><i class="fab fa-google-play mr-1"></i> View on Google Play</a>-->
+	<!--				</div>-->
+				</div>
+			</div>
+
+			<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+				<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+					<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Pulmonary Healthcare Assistant and Reminder for Medicine Assimilation <span style="font-style:italic">(Study)</span></h4>
+				</div>
+				<div class="card-body">
+					<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Android App</h5>
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/pharma-mobile-1.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/pharma-mobile-1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/pharma-mobile-2.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/pharma-mobile-2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/pharma-mobile-3.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/pharma-mobile-3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/pharma-mobile-4.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/pharma-mobile-4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
+							<a href="img/pharma-mobile-5.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/pharma-mobile-5.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
+							<a href="img/pharma-mobile-6.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/pharma-mobile-6.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Admin</h5>
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/pharma-web-1.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/pharma-web-1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/pharma-web-2.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/pharma-web-2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/pharma-web-3.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/pharma-web-3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/pharma-web-4.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/pharma-web-4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Pulmonary Healthcare Assistant and Reminder for Medicine Assimilation</h5>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">This groundbreaking study offers an innovative solution for individuals suffering from pulmonary diseases. This expert system has been designed to provide users with a comprehensive list of prescription and alternative medicines, tailored to their specific health condition. With six interactive modules, the system is user-friendly and provides a wealth of information on dosage, content, and combination, as well as age restrictions, administration, indications, contraindications, warnings, and precautions.</p>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">The Medicine Information Module offers a wide range of brand and generic drugs, along with vital information about each drug. The Inquiry Module provides a detailed summary of respiratory diseases, while the Medicine Interaction Module identifies any potentially harmful interactions between multiple medications. In addition, the Alternative Medicines Module features popular herbal supplements and cautions users about possible side effects when taken alone or with other medication dosages.</p>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">For added convenience, the Assistant Module sends users mobile alerts to ensure they never miss a medication dosage or important information. Finally, our Activity Log records all transactions, allowing users to keep track of their interactions with the system.</p>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">Overall, this expert system is a game-changer for individuals with pulmonary diseases, offering a comprehensive and user-friendly approach to medication management.</p>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
+					<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/bootstrap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap</div>
+						</div>
+						<div class="offset-2 col-4 offset-sm-0 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/mdbootstrap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap Material Design UI Kit</div>
+						</div>
+						<div class="col-4 offset-sm-4 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
+						</div>
+					</div>
+
+	<!--				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">-->
+	<!--				-->
+	<!--				<div class="text-center wow fadeIn" data-wow-delay="0.2s">-->
+	<!--					<a href="http://play.google.com/store/apps/details?id=online.bigclapmarketing_service.pharma" target="_blank" class="btn btn-custom-2" style="width:240.766px"><i class="fab fa-google-play mr-1"></i> View on Google Play</a>-->
+	<!--				</div>-->
+				</div>
+			</div>
+
+			<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+				<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+					<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Math Dommable</h4>
+				</div>
+				<div class="card-body">
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/math-dommable/1.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/math-dommable/1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/math-dommable/2.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/math-dommable/2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/math-dommable/3.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/math-dommable/3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/math-dommable/4.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/math-dommable/4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
+							<a href="img/math-dommable/5.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/math-dommable/5.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
+							<a href="img/math-dommable/6.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/math-dommable/6.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Math Dommable</h5>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">An exciting Android 2D app game that blends the fun and strategic elements of both domino and scrabble games - a perfect combination for puzzle lovers and math enthusiasts alike. The objective of the game is to create mathematical expressions using dominoes and earn points based on the results of each expression. With a visually engaging game board, players can immerse themselves in the game while improving their math skills.</p>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">As players progress through the game, they will face increasing challenges that require strategic planning and problem-solving skills to succeed. The game offers different difficulty levels, including easy, average, and difficult, allowing players of all skill levels to enjoy the game at their own pace. The game also offers a 'player versus computer' feature, making it possible to play against the computer and test your skills.</p>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">With the game ending once all dominoes have been used up or no more valid moves can be made, every turn counts, and players must think strategically to outscore their opponents. The player who earns the highest score emerges victorious, making for an exhilarating gameplay experience.</p>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">Overall, this app is a must-have for anyone who loves puzzle games, math, or strategic gameplay.</p>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Team</h5>
+					<div class="d-flex align-items-center flex-wrap wow fadeIn" data-wow-delay="0.2s">
+						<div class="pr-4">
+							<p class="card-text text-center mb-1">Rose Nunez</p>
+							<p class="card-text text-center mb-3">Researcher</p>
+						</div>
+						<div class="px-4">
+							<p class="card-text text-center mb-1">Ma. Cena Arevalo</p>
+							<p class="card-text text-center mb-3">Researcher</p>
+						</div>
+						<div class="px-4">
+							<p class="card-text text-center mb-1">Cristine Joy Ty</p>
+							<p class="card-text text-center mb-3">Researcher</p>
+						</div>
+						<div class="px-4">
+							<p class="card-text text-center mb-1">Cristine Laurio</p>
+							<p class="card-text text-center mb-3">Researcher</p>
+						</div>
+						<div class="pl-4">
+							<p class="card-text text-center mb-1">Bernard Q. Historillo</p>
+							<p class="card-text text-center mb-1"><span style="font-style:italic"><i class="fas fa-envelope mr-1"></i> bernard.historillo@bicol-u.edu.ph</span></p>
+							<p class="card-text text-center mb-3">Programmer</p>
+						</div>
+					</div>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
+					<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/unity.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Unity</div>
+						</div>
+					</div>
+	<!--				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">-->
+	<!--				-->
+	<!--				<div class="text-center wow fadeIn" data-wow-delay="0.2s">-->
+	<!--					<a href="http://play.google.com/store/apps/details?id=online.bigclapmarketing_service.pharma" target="_blank" class="btn blue-gradient" style="width:240.766px"><i class="fab fa-google-play mr-1"></i> View on Google Play</a>-->
+	<!--				</div>-->
+				</div>
+			</div>
+
+			<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+				<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+					<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">PROJECT MOBILI</h4>
+				</div>
+				<div class="card-body">
+					<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Android App Version</h5>
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/mobili-mobile-1.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/mobili-mobile-1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/mobili-mobile-2.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/mobili-mobile-2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/mobili-mobile-3.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/mobili-mobile-3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/mobili-mobile-4.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/mobili-mobile-4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
+							<a href="img/mobili-mobile-5.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/mobili-mobile-5.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
+							<a href="img/mobili-mobile-6.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/mobili-mobile-6.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-3 wow fadeIn" data-wow-delay="0.2s">Web Version</h5>
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/mobili-web-1.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/mobili-web-1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/mobili-web-2.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/mobili-web-2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/mobili-web-3.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/mobili-web-3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-6 col-md-3 col-lg-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/mobili-web-4.png" data-size="1400x1050">
+								<img src="img/4x3.png" data-src="img/mobili-web-4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About PROJECT MOBILI</h5>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">A powerful web and mobile platform solution that empowers businesses to reach their customers. With this innovative platform, businesses of all sizes can advertise their products or services to potential customers via both web and mobile app channels, making it easier than ever to connect with their audience.</p>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">This platform also features a unique Revenue Sharing Model that rewards its affiliates for promoting their products and services. Every purchase generated through an affiliate's promotion earns them a share of the revenue, incentivizing them to continue spreading the word about their business.</p>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">With this cutting-edge technology and customer-focused approach, a business can achieve unprecedented levels of success and growth.</p>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
+					<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/php7.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">PHP 7</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/bootstrap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap</div>
+						</div>
+						<div class="col-4 offset-sm-0 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/mdbootstrap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Bootstrap Material Design UI Kit</div>
+						</div>
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
+						</div>
+						<div class="col-4 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/treantjs.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Treant.JS</div>
+						</div>
+					</div>
+	<!--				<hr class="wow fadeIn" data-wow-delay="0.2s" style="margin-top:0px">-->
+
+					<!--				<div class="text-center wow fadeIn" data-wow-delay="0.2s">-->
+					<!--					<a href="https://bigclap365marketing-service.online/mobili/" target="_blank" class="btn blue-gradient" style="width:240.766px"><i class="fas fa-desktop mr-1"></i> View Web Version</a>-->
+					<!--					<a href="http://play.google.com/store/apps/details?id=online.bigclap365marketing_service.mobili" target="_blank" class="btn blue-gradient" style="width:240.766px"><i class="fab fa-google-play mr-1"></i> View on Google Play</a>-->
+					<!--				</div>-->
+				</div>
+			</div>
+
+			<div class="card card-cascade narrower shadow-none" style="margin-top:70px">
+				<div class="view gradient-card-header bg-color-1 narrower align-items-center shadow-none">
+					<h4 class="h4-responsive white-text" style="margin-bottom:0; font-weight:600">Loan Management System</h4>
+				</div>
+				<div class="card-body">
+					<div class="mdb-lightbox row mt-3 mx-1">
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.1s">
+							<a href="img/lms/1.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/lms/1.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.2s">
+							<a href="img/lms/2.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/lms/2.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
+							<a href="img/lms/3.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/lms/3.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.4s">
+							<a href="img/lms/4.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/lms/4.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.5s">
+							<a href="img/lms/5.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/lms/5.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+						<figure class="col-4 col-md-2 col-lg-2 mb-1 wow fadeIn" data-wow-delay="0.6s">
+							<a href="img/lms/6.png" data-size="600x1200">
+								<img src="img/1x2.png" data-src="img/lms/6.png" class="lazy img-fluid" style="width:100%">
+							</a>
+						</figure>
+					</div>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">About Loan Management System</h5>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">A cutting-edge Android app designed to streamline loan management for businesses and lenders alike. The app empowers lenders to effortlessly track their clients' loan payments and charges, providing unparalleled transparency and accountability throughout the repayment process.</p>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">The app also features a comprehensive system for collectors, allowing them to quickly and easily submit their clients' payments without the need for complicated paperwork or time-consuming manual data entry.</p>
+					<p class="card-text text-justify wow fadeIn" data-wow-delay="0.2s">With intuitive functionality and seamless integration, the app is the ultimate solution for businesses looking to take their loan management to the next level.</p>
+
+					<h5 class="card-title mt-4 wow fadeIn" data-wow-delay="0.2s">Technologies Used</h5>
+					<div class="row mt-3 wow fadeIn" data-wow-delay="0.2s">
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/php7.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">PHP 7</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/phonegap.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Phonegap</div>
+						</div>
+						<div class="col-4 col-sm-3 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/framework7.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">Framework7</div>
+						</div>
+						<div class="col-4 offset-sm-3 col-sm-3 offset-md-0 col-md-2 mb-3">
+							<div>
+								<img src="img/2x1.png" data-src="img/jquery.png" class="lazy img-fluid" style="width:100%">
+							</div>
+							<div class="mt-1" style="text-align:center; color:#747373; font-size:.9rem">JQuery</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	
-	<div class="container-fluid pt-5" style="margin-top:100px; background-color:#ffffff; box-shadow: 0 -1px 5px 0 rgba(0,0,0,.16), 0 -1px 10px 0 rgba(0,0,0,.12);">
-		<div class="container">
-			<h2 class="text-center text-uppercase mt-1 mb-3 pt-5 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; padding-top:0px !important">Contact Me</h2>
-			<h6 class="text-center mt-1 mb-5 pt-5 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; padding-top:0px !important">Want an outstanding project? Just send me a message!</h6>
-			
-			<section class="section contact-section pb-5">
-				<div class="row wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
-					<div class="col-12 col-sm-6 text-center">
-						<i class="fas fa-phone fa-2x"></i>
-						<p>+63 947 192 2555</p>
-					</div>
-					<div class="col-12 col-sm-6 text-center">
-						<i class="fas fa-envelope fa-2x"></i>
-						<p>bernardhistorillo1@gmail.com</p>
-					</div>
-					<div class="col-12 mt-2">
-						<form class="send-message-fields">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="md-form mb-0">
+
+		<div class="container-fluid pt-5" style="margin-top:100px; background-color:#ffffff; box-shadow: 0 -1px 5px 0 rgba(0,0,0,.16), 0 -1px 10px 0 rgba(0,0,0,.12);">
+			<div class="container">
+				<h2 class="text-center text-uppercase mt-1 mb-3 pt-5 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; padding-top:0px !important">Contact Me</h2>
+				<h6 class="text-center mt-1 mb-5 pt-5 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; padding-top:0px !important">Want an outstanding project? Just send me a message!</h6>
+
+				<section class="section contact-section pb-5">
+					<div class="row wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+						<div class="col-12 col-sm-6 text-center">
+							<i class="fas fa-phone fa-2x"></i>
+							<p>+63 947 192 2555</p>
+						</div>
+						<div class="col-12 col-sm-6 text-center">
+							<i class="fas fa-envelope fa-2x"></i>
+							<p>bernardhistorillo1@gmail.com</p>
+						</div>
+						<div class="col-12 mt-2">
+							<form class="send-message-fields">
+								<div class="row">
+									<div class="col-md-6">
 										<div class="md-form mb-0">
-											<input type="text" id="name" class="form-control">
-											<label for="name" class="">Your name</label>
+											<div class="md-form mb-0">
+												<input type="text" id="name" class="form-control">
+												<label for="name" class="">Your name</label>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="md-form mb-0">
+											<div class="md-form mb-0">
+												<input type="text" id="email" class="form-control">
+												<label for="email" class="">Your email</label>
+											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6">
-									<div class="md-form mb-0">
+								<div class="row">
+									<div class="col-md-12">
 										<div class="md-form mb-0">
-											<input type="text" id="email" class="form-control">
-											<label for="email" class="">Your email</label>
+											<textarea type="text" id="message" class="md-textarea form-control" rows="3"></textarea>
+											<label for="message">Your message</label>
 										</div>
 									</div>
 								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12">
-									<div class="md-form mb-0">
-										<textarea type="text" id="message" class="md-textarea form-control" rows="3"></textarea>
-										<label for="message">Your message</label>
+							</form>
+						</div>
+					</div>
+					<div class="text-center mt-4"><button class="btn btn-custom-2 waves-effect waves-light send-message">Send Message</button></div>
+				</section>
+			</div>
+		</div>
+
+		<div id="mdb-lightbox-ui">
+			<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" style="">
+				<div class="pswp__bg"></div>
+				<div class="pswp__scroll-wrap">
+					<div class="pswp__container" style="transform: translate3d(0px, 0px, 0px);">
+						<div class="pswp__item" style="display: block; transform: translate3d(-1241px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(0px, 0px, 0px) scale(1);"><div class="pswp__error-msg"><a href="http://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(41).jpg" target="_blank">The image</a> could not be loaded.</div></div></div>
+						<div class="pswp__item" style="transform: translate3d(0px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(0px, 0px, 0px) scale(1);"><div class="pswp__error-msg"><a href="http://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg" target="_blank">The image</a> could not be loaded.</div></div></div>
+						<div class="pswp__item" style="display: block; transform: translate3d(1241px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(0px, 0px, 0px) scale(1);"><div class="pswp__error-msg"><a href="http://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(147).jpg" target="_blank">The image</a> could not be loaded.</div></div></div>
+					</div>
+
+					<div class="pswp__ui pswp__ui--fit pswp__ui--hidden">
+						<div class="pswp__top-bar">
+							<div class="pswp__counter"></div>
+							<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+							<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+							<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+							<div class="pswp__preloader">
+								<div class="pswp__preloader__icn">
+									<div class="pswp__preloader__cut">
+										<div class="pswp__preloader__donut"></div>
 									</div>
 								</div>
 							</div>
-						</form>
-					</div>
-				</div>
-				<div class="text-center mt-4"><button class="btn btn-custom-2 waves-effect waves-light send-message">Send Message</button></div>
-			</section>
-		</div>
-	</div>
-	
-	<div id="mdb-lightbox-ui">
-		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" style="">
-			<div class="pswp__bg"></div>
-			<div class="pswp__scroll-wrap">
-				<div class="pswp__container" style="transform: translate3d(0px, 0px, 0px);">
-					<div class="pswp__item" style="display: block; transform: translate3d(-1241px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(0px, 0px, 0px) scale(1);"><div class="pswp__error-msg"><a href="http://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(41).jpg" target="_blank">The image</a> could not be loaded.</div></div></div>
-					<div class="pswp__item" style="transform: translate3d(0px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(0px, 0px, 0px) scale(1);"><div class="pswp__error-msg"><a href="http://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg" target="_blank">The image</a> could not be loaded.</div></div></div>
-					<div class="pswp__item" style="display: block; transform: translate3d(1241px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(0px, 0px, 0px) scale(1);"><div class="pswp__error-msg"><a href="http://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(147).jpg" target="_blank">The image</a> could not be loaded.</div></div></div>
-				</div>
-				
-				<div class="pswp__ui pswp__ui--fit pswp__ui--hidden">
-					<div class="pswp__top-bar">
-						<div class="pswp__counter"></div>
-						<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-						<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-						<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-						<div class="pswp__preloader">
-							<div class="pswp__preloader__icn">
-								<div class="pswp__preloader__cut">
-									<div class="pswp__preloader__donut"></div>
-								</div>
-							</div>
+						</div>
+						<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"><i class="fas fa-arrow-left text-white"></i></button>
+						<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"><i class="fas fa-arrow-right text-white"></i></button>
+						<div class="pswp__caption">
+							<div class="pswp__caption__center"></div>
 						</div>
 					</div>
-					<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"><i class="fas fa-arrow-left text-white"></i></button>
-					<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"><i class="fas fa-arrow-right text-white"></i></button>
-					<div class="pswp__caption">
-						<div class="pswp__caption__center"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="successful-modal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false">
+			<div class="modal-dialog cascading-modal modal-notify modal-success" role="document">
+				<div class="modal-content">
+					<div class="modal-header white-text">
+						<h4 class="title" style="line-height:30px; font-weight:300"></h4>
+					</div>
+					<div class="modal-body">
+						<div class="text-center">
+							<i class="fa fa-check fa-4x mb-4 animated rotateIn"></i>
+						</div>
+					</div>
+					<div class="modal-footer justify-content-center">
+						<button class="btn btn-success waves-effect waves-light" data-dismiss="modal">Okay</button>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	
-	<div class="modal fade" id="successful-modal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false">
-		<div class="modal-dialog cascading-modal modal-notify modal-success" role="document">
-			<div class="modal-content">
-				<div class="modal-header white-text">
-					<h4 class="title" style="line-height:30px; font-weight:300"></h4>
-				</div>
-				<div class="modal-body">
-					<div class="text-center">
-						<i class="fa fa-check fa-4x mb-4 animated rotateIn"></i>
+
+		<div class="modal fade" id="error-modal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false">
+			<div class="modal-dialog cascading-modal modal-notify modal-danger" role="document">
+				<div class="modal-content">
+					<div class="modal-header white-text">
+						<h4 class="title" style="line-height:30px; font-weight:300">Error: <span class="error-code"></span></h4>
 					</div>
-				</div>
-				<div class="modal-footer justify-content-center">
-					<button class="btn btn-success waves-effect waves-light" data-dismiss="modal">Okay</button>
+					<div class="modal-body">
+						<div class="text-center">
+							<i class="fa fa-times fa-4x mb-4 animated rotateIn"></i>
+						</div>
+					</div>
+					<div class="modal-footer justify-content-center">
+						<button class="btn btn-danger waves-effect waves-light" data-dismiss="modal">Okay</button>
+					</div>
 				</div>
 			</div>
 		</div>
+
+		<div class="hiddendiv common"></div>
 	</div>
-	
-	<div class="modal fade" id="error-modal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false">
-		<div class="modal-dialog cascading-modal modal-notify modal-danger" role="document">
-			<div class="modal-content">
-				<div class="modal-header white-text">
-					<h4 class="title" style="line-height:30px; font-weight:300">Error: <span class="error-code"></span></h4>
-				</div>
-				<div class="modal-body">
-					<div class="text-center">
-						<i class="fa fa-times fa-4x mb-4 animated rotateIn"></i>
-					</div>
-				</div>
-				<div class="modal-footer justify-content-center">
-					<button class="btn btn-danger waves-effect waves-light" data-dismiss="modal">Okay</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	
+
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -1816,7 +1827,7 @@
 	<script type="text/javascript" src="js/jquery.lazy.min.js"></script>
 	<script type="text/javascript" src="js/ZKeddV.js"></script>
 	<script type="text/javascript" src="js/index.js?v=10"></script>
-	
-	<div class="hiddendiv common"></div>
+
+
 </body>
 </html>
